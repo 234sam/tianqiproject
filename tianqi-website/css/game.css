@@ -1,0 +1,185 @@
+/*game.css*/
+
+    .game {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /*导航路径    开始*/
+    .game > ul:first-child {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    .game > ul:first-child li {
+        float: left;
+        font-size: 14px;
+    }
+    .game > ul:first-child li a {
+        color: #666;
+    }
+    .game > ul:first-child li:nth-child(2) {
+        margin: 0 5px;
+    }
+    /*导航路径    end*/
+
+    /*分类帅选    开始*/
+    .classify {
+        background-color: #fff;
+    }
+    .classify>ul h4 {
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        color: #333;
+        font-family: "microsoft";
+        padding-left: 5px;
+    }
+    .classify>ul li {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        font-family: "microsoft";
+        padding-left: 10px;
+    }
+    .classify>ul li:nth-child(2n) {
+        border-top: 1px solid #ededed;
+        border-bottom: 1px solid #ededed;
+    }
+    .classify>ul li i {
+        color: #666;
+    }
+    .classify>ul li span:nth-of-type(1) {
+        width: 46px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        display: inline-block;
+        background-color: #fdaf1e;
+        margin-right: 20px;
+    }
+    .classify>ul li span:nth-of-type(1) a {
+        color: #fff;
+    }
+    .classify>ul li span:nth-of-type(n+2){
+        margin-right: 20px;
+    }
+    .classify>ul li span:nth-of-type(n+2) a {
+        color: #333;
+    }
+    /*分类帅选    end*/
+
+    /*游戏列表     开始*/
+    .gamelist {
+        width: 1200px;
+        height: 1300px;
+        background-color: #fff;
+        margin-top: 20px;
+    }
+    .gamelist .gamelist-t{
+        height: 1148px;
+    }
+    .gamelist-t .commonbox {
+        height: 164px;
+        width: 599px;
+        overflow: hidden;
+        font-family: "microsoft";
+        float: left;
+        border-bottom: 1px solid #ededed;
+    }
+    .gamelist-t .commonbox:nth-child(2n) {
+        border-left: 1px solid #ededed;
+    }
+    .commonbox>a:first-child {
+        width: 119px;
+        height: 119px;
+        display: inline-block;
+        float: left;
+        margin: 22px 25px 22px 40px;
+    }
+    .commonbox> h4:nth-child(2) {
+        font-size: 18px;
+        color: #333;
+        margin-top: 30px;
+    }
+    .commonbox> p:nth-child(3),.commonbox> span:nth-child(4) {
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #999;
+        margin-top: 10px;
+    }
+    .commonbox> span:nth-child(4) {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .commonbox> a:last-child {
+        width: 90px;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #fdaf1e;
+        font-size: 16px;
+        color: #fdaf1e;
+        float: right;
+        margin-right: 25px;
+        margin-top: -15px;
+    }
+    .commonbox> a:last-child:hover {
+        background-color: #fdaf1e;
+        color: #fff;
+    }
+
+    .gamelist-f {
+        width: 1200px;
+    }
+    .gamelist-f ul {
+        height: 36px;
+        margin-top: 50px;
+        margin-left: 290px;
+    }
+    .gamelist-f ul li {
+        float: left;
+        margin-right: 5px;
+        border: 1px solid #DCDCDC;
+    }
+    .gamelist-f ul li em {
+        width: 50px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        color: #999;
+        font-family: "microsoft";
+    }
+    .gamelist-f ul li em:hover {
+        background-color: #fdaf1e;
+        color: #fff;
+    }
+    /*游戏列表     end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+

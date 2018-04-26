@@ -1,0 +1,164 @@
+/*business.css*/
+
+/*----------------------商务合作         开始*/
+    .business {
+        height: auto;
+    }
+    .business-f {
+        width: 1200px;
+        height: 368px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .business-f>ul>li {
+        width: 265px;
+        height: 164px;
+        background-color: #fff;
+        float: left;
+        padding-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .business-f>ul>li:hover {
+        box-shadow: 7px 7px 21px rgba(90,89,89,0.3);
+        transform: scale(1.1,1.1);
+        transition: all 0.6s;
+    }
+    .business-f>ul>li:nth-child(4) {
+        margin-right: 0;
+    }
+    .business-f>ul>li>a>h4  {
+        font-size: 22px;
+        color: #f08200;
+        margin: 20px 0;
+    }
+    .business-f>ul>li>a>span:nth-child(2) {
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .business-f>ul>li>a>span:nth-child(4),.business-f>ul>li>a>span:nth-child(6) {
+        display: inline-block;
+        font-size: 16px;
+        color: #999;
+        margin-bottom: 10px;
+    }
+    .business-f>ul>li>a>span:nth-child(4):before {
+        content: '';
+        width: 16px;
+        height: 12px;
+        display: inline-block;
+        margin-right: 10px;
+        background: url("../img/business-mail.png");
+    }
+    .business-f>ul>li>a>span:nth-child(6):before {
+        content: '';
+        width: 16px;
+        height: 14px;
+        display: inline-block;
+        margin-right: 10px;
+        background: url("../img/business-weixin.png");
+    }
+/*----------------------商务合作         end*/
+
+/*----------------------联系我们         开始*/
+    .contactus {
+        background-color: #fff;
+        margin-top: 0;
+        padding-top: 60px;
+        height: auto;
+    }
+    .contactus-f {
+        overflow: hidden;
+    }
+    .contactus-f>ul {
+        height: 265px;
+        margin-top: 60px;
+    }
+    .contactus-f>ul>li {
+        width: 287px;
+        height: 265px;
+        float: left;
+        background-color: #f9e0e0;
+        margin-right: 17px;
+        text-align: center;
+    }
+    .contactus-f>ul>li>i {
+        width: 46px;
+        height: 46px;
+        display: inline-block;
+        margin-top: 50px;
+        background: url("../img/contactus-place.png");
+    }
+    .contactus-f>ul>li:nth-child(2)>i {
+        width: 45px;
+        height: 45px;
+        margin-top: 51px;
+        background: url("../img/contactus-phone.png");
+    }
+    .contactus-f>ul>li:nth-child(3)>i {
+        width: 55px;
+        height: 39px;
+        margin-top: 57px;
+        background: url("../img/contactus-mail.png");
+    }
+    .contactus-f>ul>li:nth-child(4)>i {
+        width: 47px;
+        height: 51px;
+        margin-top: 45px;
+        background: url("../img/contactus-qq.png");
+    }
+    .contactus-f>ul>li>h3 {
+        font-size: 24px;
+        color: #333;
+        margin: 27px 0;
+    }
+    .contactus-f>ul>li>p {
+        font-size: 18px;
+        color: #333;
+        line-height: 34px;
+    }
+    .contactus-f>ul>li:nth-child(2) {
+        background-color: #ddf2f4;
+    }
+    .contactus-f>ul>li:nth-child(3) {
+        background-color: #ebf3da;
+    }
+    .contactus-f>ul>li:last-child {
+        margin-right: 0;
+        background-color: #d5ecf9;
+    }
+    .contactus-f>.map {
+        height: 573px;
+        margin-top: 100px;
+        margin-bottom: 136px;
+        background-color: pink;
+    }
+    /*地图部分*/
+    .BMap_bubble_title {
+        font-size: 20px;
+        color: #f08200;
+    }
+    .BMap_bubble_content {
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px;
+    }
+    .BMap_bubble_content {
+        line-height: 25px;
+    }
+/*----------------------联系我们         end*/
+
+    
+
+
+
+
+
+
+
+
+
+
+

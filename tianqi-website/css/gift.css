@@ -1,0 +1,739 @@
+/*gift.css*/
+
+/*-----------------大盒子            开始*/
+    .bigbox {
+        height: 1714px;
+        margin-top: 30px;
+        /*background-color: #fff;*/
+    }
+
+    /*------------------左边大盒子            开始*/
+        .bigbox-l {
+            width: 836px;
+            height: 1714px;
+        }
+
+        /*--------------------图片部分      开始*/
+        .bigbox-l-img {
+            width: 836px;
+            height: 300px;
+            position: relative;
+        }
+        .bigbox-l-img>a {
+            width: 836px;
+            height: 300px;
+            display: inline-block;
+            float: left;
+            background: url("../img/bigbox-l-img.png") no-repeat;
+        }
+        .bigbox-l-img p {
+            width: 836px;
+            height: 35px;
+            background-color: #000;
+            opacity: 0.3;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .bigbox-l-img p em {
+            width: 172px;
+            height: 28px;
+            line-height: 35px;
+            font-size: 20px;
+            margin-left: 20px;
+            font-family: "microsoft";
+            color: #FDD61E;
+        }
+        /*--------------------图片部分      end*/
+
+        /*--------------------热门礼包         开始*/
+        .hgift {
+            width: 836px;
+            height: 239px;
+            background-color: #fff;
+            margin-top: 25px;
+        }
+        .hgift>span {
+            width: 836px;
+            height: 36px;
+            display: inline-block;
+        }
+        .hgift>span h2 {
+            width: 82px;
+            height: 25px;
+            line-height: 36px;
+            font-size: 18px;
+            color: #434343;
+            font-family: "microsoft";
+            margin-left: 15px;
+        }
+        .hgift-f {
+            width: 812px;
+            height: 188px;
+            margin: 0 auto;
+        }
+        .hgift-f .module {
+            width: 258px;
+            height: 188px;
+            float: left;
+            position: relative;
+        }
+        .hgift-f .module>a {
+            width: 258px;
+            height: 129px;
+            display: inline-block;
+
+        }
+        .hgift-f .module>a i{
+            width: 258px;
+            height: 129px;
+            background: url("../img/hgift-img-01.png");
+            display: inline-block;
+            float: left;
+        }
+        .hgift-f .center>a i {
+            background: url("../img/hgift-img-02.png");
+        }
+        .hgift-f .module:last-child>a i {
+            background: url("../img/hgift-img-03.png");
+        }
+        .hgift-f .module span {
+            width: 257px;
+            height: 26px;
+            display: inline-block;
+            background-color: #000;
+            opacity: 0.62;
+            position: absolute;
+            top: 103px;
+            left: 0;
+        }
+        .hgift-f .module span em {
+            width: 216px;
+            height: 21px;
+            line-height: 21px;
+            display: inline-block;
+            font-size: 14px;
+            color: #FFD806;
+            font-family: "microsoft";
+            margin: 2px 0 0 10px;
+            
+        }
+        .hgift-f .module p {
+            width: 255px;
+            height: 21px;
+            line-height: 21px;
+            font-size: 14px;
+            color: #999999;
+            margin: 5px 0 0 5px;
+            font-family: "microsoft";
+        }
+        .hgift-f .module p i {
+            width: 90px;
+            height: 10px;
+            display: inline-block;
+            margin: 0 5px 0 3px;
+            background-color: #EDEDED;
+            border-radius: 5px;
+            position: relative;
+        }
+        .hgift-f .module:first-child p i em {
+            width: 90px;
+            height: 10px;
+            background-color: #FD950B;
+            display: inline-block;
+            border-radius: 5px;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .hgift-f .module:nth-child(2) p i em {
+            width: 80px;
+            height: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #FD950B;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .hgift-f .module:last-child p i em {
+            width: 20px;
+            height: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #FD950B;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .hgift-f .module p b {
+            width: 68px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            margin-left: 3px;
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #FD950B;
+            color: #FD950B;
+        }
+        .hgift-f .module:nth-child(2) p b,
+        .hgift-f .module:nth-child(3) p b {
+            margin-left: 10px;
+        }
+        .hgift-f .module p b:hover {
+            background-color: #FD950B;
+            border: 1px solid #FD950B;
+            color: #fff;
+        }
+        .hgift-f .module p:last-child {
+            width: 204px;
+            height: 21px;
+            line-height: 21px;
+            text-align: center;
+            font-size: 14px;
+            color: #999999;
+            font-family: "microsoft";
+            margin-left: -8px;
+        }
+        .hgift-f .center {
+            margin: 0 19px;
+        }
+        /*--------------------热门礼包         end*/
+
+        /*--------------------游戏礼包         开始*/
+        .ggift {
+            width: 836px;
+            height: 243px;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        .ggift .ggift-t,.xsgift .ggift-t {
+            width: 836px;
+            height: 50px;
+            border-bottom: 1px solid #EDEDED;
+            /*background-color: red;  */
+        }
+        .ggift .ggift-t h2,.xsgift .ggift-t h2,
+        .lh-description h2,.qiang h2 {
+            width: 80px;
+            height: 30px;
+            font-size: 18px;
+            font-family: "microsoft";
+            color: #000;
+            float: left;
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+        .ggift .ggift-t h2:hover,.xsgift .ggift-t h2:hover,
+        .lh-description h2:hover,.qiang h2:hover {
+            border-bottom: 1px solid #FC950B;
+        }
+        .ggift .ggift-t input[type="text"] {
+            width: 174px;
+            height: 32px;
+            line-height: 32px;
+            margin-top: 10px;
+            float: left;
+            margin-left: 480px;
+            padding-left: 10px;
+            display: inline-block;
+            border: 1px solid #F5F5F5;
+            border-radius: 20px;
+            color: #999999;
+            font-family: "microsoft";
+            font-size: 14px;
+        }
+        .ggift .ggift-t input[type="button"] {
+            width: 39px;
+            height: 23px;
+            line-height: 23px;
+            margin-top: 15px;
+            float: left;
+            margin-left: 10px;
+            display: inline-block;
+            color: #656565;
+            font-family: "microsoft";
+            font-size: 16px;
+        }
+        .ggift-f {
+            width: 836px;
+            height: 173px;
+            margin-top: 20px;
+        }
+        .ggift-f li {
+            width: 800px;
+            height: 22px;
+            font-size: 16px;
+            color: #434343;
+            margin-left: 20px;
+            margin-bottom: 17px;
+            font-family: "microsoft";
+        }
+        .ggift-f li i {
+            width: 86px;
+            height: 22px;
+            display: inline-block;
+            float: left;
+        }
+        .ggift-f li span a{
+            color: #434343;
+            float: left;
+            display: inline-block;
+        }
+        .ggift-f li span:nth-child(2) a {
+            width: 46px;
+            height: 22px;
+            display: inline-block;
+            line-height: 22px;
+            text-align: center;
+            margin-right: 14px;
+            font-size: 14px;
+            color: #fff;
+            font-family: "microsoft";
+            background-color: #FC950B;
+        }
+        .ggift-f li:first-child span:nth-child(3) a {
+            margin-right: 34px;
+        }
+        .ggift-f li:nth-child(2) span:nth-child(4) a {
+            margin: 0 30px 0 20px;
+        }
+        .ggift-f li:nth-child(3) span:nth-child(4) a {
+            margin: 0 20px 0 20px;
+        }
+        .ggift-f li:nth-child(4) span:nth-child(n+3) a {
+            margin: 5px 5px 0;
+        }
+        /*--------------------游戏礼包         end*/
+
+        /*--------------------全明星战         开始*/
+        .allstar-wars {
+            width: 836px;
+            height: 678px;
+            margin-top: 25px;
+        }
+        .smallbox {
+            width: 401px;
+            height: 146px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .smallbox span:first-child a {
+            width: 98px;
+            height: 98px;
+            float: left;
+            display: inline-block;
+            margin: 24px 15px 24px 10px;
+            background: url("../img/allstar-wars01.png");
+        }
+        .smallbox h3 {
+            width: 256px;
+            height: 26px;
+            line-height: 26px;
+            float: left;
+            font-size: 16px;
+            color: #434343;
+            font-family: "microsoft";
+            margin-top: 24px;
+        }
+        .smallbox h3 b {
+            width: 68px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            margin-left: 90px;
+            display: inline-block;
+            color: #FD950B;
+            font-size: 14px;
+            font-family: "microsoft";
+            border: 1px solid #FD950B;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .smallbox h3 b:hover {
+            color: #fff;
+            background-color: #FD950B;
+        }
+        .smallbox>em {
+            width: 130px;
+            height: 19px;
+            display: inline-block;
+            float: left;
+            margin: 10px 0 0 7px;
+            font-size: 12px;
+            color: #999999;
+            font-family: "microsoft";
+        }
+        .smallbox>span:nth-child(4) {
+            width: 143px;
+            height: 21px;
+            display: inline-block;
+            float: left;
+            margin: 5px 0 0 5px;
+            font-size: 14px;
+            color: #FD950B;
+            font-family: "microsoft";
+        }
+        .smallbox>span:last-child {
+            width: 258px;
+            height: 19px;
+            display: inline-block;
+            float: left;
+            margin: 5px 0 0 5px;
+            font-size: 12px;
+            color: #999;
+            font-family: "microsoft";
+        }
+        .smallbox>span:last-child i {
+            width: 190px;
+            height: 10px;
+            display: inline-block;
+            background-color: #E5E5E5;
+            border-radius: 5px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .smallbox>span:last-child em {
+            width: 190px;
+            height: 10px;
+            display: inline-block;
+            background-color: #FD950B;
+            border-radius: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .allstar-wars div:nth-child(2n-1) {
+            float: left;
+        }
+        .allstar-wars div:nth-child(2n) span:first-child a {
+            background: url("../img/allstar-wars02.png");
+        }
+        .allstar-wars div:nth-child(2n) {
+            float: right;
+        }
+        .allstar-wars div:nth-child(n+2) span:last-child em{
+            width: 30px;
+        }
+        .allstar-wars ul {
+            width: 513px;
+            height: 34px;
+            margin: 15px 207px 0;
+            float: left;
+        }
+        .allstar-wars ul li {
+            float: left;
+            margin-right: 5px;
+            border: 1px solid #DCDCDC;
+        }
+        .allstar-wars ul li em {
+            width: 50px;
+            height: 21px;
+            line-height: 21px;
+            text-align: center;
+            display: inline-block;
+            font-size: 14px;
+            color: #434343;
+            font-family: "microsoft";
+        }
+        .allstar-wars ul li em:hover {
+            background-color: #FCAE1D;
+            color: #fff;
+        }
+        /*--------------------全明星战         end*/
+
+        /*--------------------相似礼包         开始*/
+        .xsgift {
+            width: 836px;
+            height: 163px;
+            margin-top: 10px;
+            background-color: #fff;
+        }
+        .xsgift ul {
+            width: 785px;
+            height: 123px;
+            margin: 0 auto;
+            margin-top: 13px;
+        }
+        .xsgift ul li {
+            width: 68px;
+            height: 94px;
+            float: left;
+            position: relative;
+        }
+        .xsgift ul li a {
+            width: 69px;
+            height: 69px;
+            display: inline-block;
+            float: left;
+            background: url("../img/xsgift01.png");
+        }
+        .xsgift ul li:nth-child(2) a {
+            background: url("../img/xsgift02.png");
+        }
+        .xsgift ul li:nth-child(3) a {
+            background: url("../img/xsgift03.png");
+        }
+        .xsgift ul li:nth-child(4) a {
+            background: url("../img/xsgift04.png");
+        }
+        .xsgift ul li:nth-child(5) a {
+            background: url("../img/xsgift05.png");
+        }
+        .xsgift ul li:nth-child(6) a {
+            background: url("../img/xsgift06.png");
+        }
+        .xsgift ul li:nth-child(7) a {
+            background: url("../img/xsgift07.png");
+        }
+        .xsgift ul li b {
+            width: 80px;
+            height: 21px;
+            display: inline-block;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+            color: #656565;
+            font-family: "microsoft";
+            position: absolute;
+            bottom: 0;
+            left: -7px;
+        }
+        .xsgift ul li:nth-child(2n) {
+            margin: 0 51px;
+        }
+        /*--------------------相似礼包         end*/
+    /*------------------左边大盒子             end*/
+
+    /*------------------右边大盒子            开始*/
+        .bigbox-r {
+            width: 341px;
+            height: 1714px;
+        }
+
+        /*------------------广告图片          开始*/
+        .bigbox-r-adv {
+            width: 341px;
+            height: 240px;
+        }
+        .bigbox-r-adv>a {
+            width: 341px;
+            height: 178px;
+            display: block;
+            background: url("../img/bigboxright-adv.png");
+        }
+        .bigbox-r-adv p {
+            width: 341px;
+            height: 44px;
+            margin-top: 18px;
+        }
+        .bigbox-r-adv span {
+            width: 165px;
+            height: 44px;
+            font-size: 16px;
+            font-family: "microsoft";
+            display: inline-block;
+            position: relative;
+        }
+        .bigbox-r-adv span:first-child {
+            background-color: #117CF5;
+            margin-right: 7px;
+        }
+        .bigbox-r-adv span:nth-child(2) {
+            background-color: #FD950B;
+        }
+        .bigbox-r-adv span a i {
+            width: 31px;
+            height: 29px;
+            display: inline-block;
+            margin: 5px 10px 5px 35px;
+            background: url("../img/bigboxright-jiaqun.png") no-repeat;
+        }
+        .bigbox-r-adv span a b {
+            width: 56px;
+            height: 23px;
+            display: inline-block;
+            line-height: 23px;
+            color: #fff;
+            position: absolute;
+            top: 10px;
+            right: 28px;
+        }
+        /*------------------广告图片          end*/
+
+        /*------------------领号说明          开始*/
+        .lh-description {
+            width: 340px;
+            height: 293px;
+            margin-top: 17px;
+            background-color: #fff;
+        }
+        .lh-description .ggift-t{
+            width: 340px;
+            height: 50px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #EDEDED;
+        }
+        .lh-description ul {
+            width: 340px;
+            height: 267px;
+        }
+        .lh-description ul li {
+            width: 328px;
+            margin-left: 10px;
+            line-height: 26px;
+            color: #fff;
+            font-size: 14px;
+            font-family: "microsoft";
+            position: relative;
+        }
+        .lh-description ul li em {
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            display: inline-block;
+            background-color: #FDAF1D;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 0;
+        }
+        .lh-description ul li b {
+            width: 285px;
+            height: 48px;
+            display: inline-block;
+            color: #434343;
+            font-weight: bold;
+            margin-left: 38px;
+        }
+        /*------------------领号说明          end*/
+
+        /*------------------大家都在抢          开始*/
+        .qiang {
+            width: 340px;
+            height: 555px;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        .qiang .ggift-t{
+            width: 340px;
+            height: 50px;
+            border-bottom: 1px solid #EDEDED;
+        }
+        .qiang h2 {
+            width: 102px;
+            padding-left: 5px;
+        }
+        .qiang ul {
+            width: 340px;
+            height: 505px;
+        }
+        .qiang ul li {
+            width: 310px;
+            height: 66px;
+            font-family: "microsoft";
+            margin: 17px 0 0 10px;
+        }
+        .qiang ul li i {
+            width: 66px;
+            height: 66px;
+            display: inline-block;
+            float: left;
+            margin-right: 22px;
+            background: url("../img/qiang-img01.png");
+        }
+        .qiang ul li:nth-child(2) i {
+            background: url("../img/qiang-img02.png");
+        }
+        .qiang ul li:nth-child(3) i {
+            background: url("../img/qiang-img03.png");
+        }
+        .qiang ul li:nth-child(4) i {
+            background: url("../img/qiang-img04.png");
+        }
+        .qiang ul li:nth-child(5) i {
+            background: url("../img/qiang-img05.png");
+        }
+        .qiang ul li:nth-child(6) i {
+            background: url("../img/qiang-img06.png");
+        }
+        .qiang ul li em {
+            width: 155px;
+            height: 20px;
+            line-height: 20px;
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 12px;
+            color: #656565;
+        }
+        .qiang ul li b {
+            width: 125px;
+            height: 23px;
+            line-height: 23px;
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #FD950B;
+        }
+        /*------------------大家都在抢          end*/
+
+        /*----------------------二维码模块      开始*/
+        .erweima {
+            width: 340px;
+            height: 141px;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        .erweima i {
+            width: 96px;
+            height: 96px;
+            display: inline-block;
+            float: left;
+            background: url("../img/hotgameerweima.png");
+            margin: 15px 20px 10px 25px;
+        }
+        .erweima span {
+            width: 125px;
+            height: 23px;
+            display: inline-block;
+            /*float: left;*/
+            font-size: 16px;
+            font-family: "microsoft";
+            color: #434343;
+            margin-top: 25px;
+        }
+        .erweima p {
+            width: 282px;
+            height: 46px;
+            line-height: 26px;
+            font-size: 14px;
+            font-family: "microsoft";
+            color: #434343;
+        }
+        /*----------------------二维码模块      end*/
+    /*------------------右边大盒子            END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        

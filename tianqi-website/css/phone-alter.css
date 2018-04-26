@@ -1,0 +1,77 @@
+/*phone-alter.css*/
+
+    .zhanghuanquan {
+        width: 860px;
+        height: 662px;
+        display: block;
+    }
+    .zhanghuanquan>span>h2 {
+        width: 110px;
+    }
+    .shouji {
+        width: 336px;
+        height: 247px;
+        margin: 53px 260px 163px;
+    }
+    .shouji span {
+        width: 210px;
+        height: 23px;
+        line-height: 23px;
+        display: inline-block;
+        font-size: 16px;
+        color: #434343;
+        font-family: "microsoft";
+    }
+    .shouji p {
+        width: 276px;
+        height: 45px;
+        line-height: 25px;
+        font-size: 14px;
+        color: #656565;
+        font-family: "microsoft";
+        margin: 25px 0 30px;
+    }
+    .shouji input[type="text"] {
+        width: 170px;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #D0D6D8;
+        font-size: 14px;
+        color: #999999;
+        font-family: "microsoft";
+        padding-left: 10px;
+        margin-bottom: 46px;
+    }
+    .shouji input[type="button"] {
+        width: 88px;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #D0D6D8;
+        font-size: 14px;
+        color: #fff;
+        font-family: "microsoft";
+        padding-left: 10px;
+        margin-left: 5px;
+        background-color: #FCAE1D;
+    }
+    .shouji input[type="submit"] {
+        width: 278px;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #D0D6D8;
+        font-size: 16px;
+        color: #fff;
+        font-family: "microsoft";
+        text-align: center;
+        background-color: #FCAE1D;
+    }
+    .personal-f-l ul li:last-child {
+        background-color: #FCAE1D;
+    }
+

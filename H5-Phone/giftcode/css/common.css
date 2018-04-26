@@ -1,0 +1,145 @@
+/*common.css*/
+
+/* ͨ����ʽ */
+/*html {*/
+    /*font-size: 62.5%;    /!*10 �� 16 �� 100% = 62.5%*!/*/
+/*}*/
+/*body {*/
+    /*font-size: 1.4rem;   /!*1.4 �� 10px = 14px !*!/*/
+/*}*/
+*,
+::before,
+::after{
+    /*font-size: 12px;*/
+    /*  */
+    margin: 0;
+    padding: 0;
+
+    /* �������Ч�� *//* ��ָ��� ���Ĭ�ϵ� ����Ч�� ͸�� */
+    -webkit-tap-highlight-color: transparent ;
+
+    /* ����ģ�� */
+    /* ��ʽ������� �ں���tab */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* ͳһ��������  sans-serif �ƶ��� ��Ĭ������ */
+    /*font-family: "Microsoft Yahei",sans-serif;*/
+}
+address, cite, dfn, em, var,i { font-style: normal; } /* ��б����� */
+
+/* input��ǩ ȥ��Ĭ����ʽ */
+input{
+    border: none;
+    outline:none;
+    -webkit-appearance: none;
+}
+
+/* a��ǩ���»��� */
+a{
+    text-decoration: none;
+}
+
+/* ȥ��СԲ�� */
+ol,ul{
+    list-style: none;
+}
+
+/* ������� */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* ������� */
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/* �߿�� ͨ����ʽ */
+.b_l{
+    border-left: 1px solid #eee;
+}
+.b_r{
+    border-right: 1px solid #eee;
+}
+.b_t{
+    border-top: 1px solid #eee;
+}
+.b_b{
+    border-bottom: 1px solid #eee;
+}
+
+/*------------��Ŀ��Ҫ�õ�����ɫ*/
+
+.c-lgray {    /*ǳ��ɫ  ��������������ɫ*/
+    color: #F7F7F7;
+}
+.c-gray {     /*��ɫ   ����������������ɫ*/
+    color: #999999;
+}
+.c-dgray {     /*���ɫ   ������Ϸ������ɫ*/
+    color: #434343;
+}
+.c-dred {      /*���ɫ  ������ɫ*/
+    color: #FF3F3F
+}
+.c-red {      /*��ɫ  ����������������ɫ*/
+    color: #FD8080 !important;
+}
+.c-lblack {      /*ǳ��ɫ  ����������������ɫ*/
+    color: #666666;
+}
+.c-dblack {      /*���ɫ  ����������������ɫ*/
+    color: #656565;
+}
+.c-ddblack {      /*���ɫ  ��������������ɫ*/
+    color: #252525;
+}
+.c-black {      /*��ɫ  ����������������ɫ*/
+    color: #444444;
+}
+.c-orange {      /*��ɫ  ������ɫ*/
+    color: #F9A200;
+}
+.c-lorange {      /*ǳ��ɫ  ������ɫ*/
+    color: #F9A300 !important;
+}
+.c-dorange {      /*���ɫ  ������ɫ*/
+    color: #FBB42F ;
+}
+.c-blue {      /*��ɫ  ��ע��ɫ*/
+    color:  #0095FD;
+}
+
+
+/*----------------��Ŀ��Ҫ�õ��������С*/
+.fs-12 {
+    font-size: 12px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-32{
+    font-size: 32px;
+}

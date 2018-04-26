@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        form {
+            width: 400px;
+            height: 300px;
+            background-color: #ededed;
+            margin: 200px auto;
+            border: 1px solid #000000;
+            border-radius: 10px;
+        }
+        form>span {
+            display: inline-block;
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        form>input:last-child {
+            display: inline-block;
+            margin-left: 150px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <span>用户名：<input type="text" name="username"/></span><br>
+        <span>密&nbsp;&nbsp; 码：<input type="password" name="password"/></span><br>
+        <span>记住登录：<input type="checkbox" checked="checked" /></span>
+        <input type="submit" value="登录"/>
+    </form>
+</body>
+</html>

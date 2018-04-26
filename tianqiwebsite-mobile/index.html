@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+    <link rel="stylesheet" href="css/recharge.css"/>
+</head>
+<body ontouchstart="">
+    <!-- 最外层的容器盒子       开始-->
+    <div class="gw_container">
+
+        <!-- 顶部的 通栏       开始-->
+        <div class="gw_header clearfix">
+            <span></span>
+            <span>
+                <span id="login"></span>
+                <span id="dianji"></span>
+            </span>
+        </div>
+        <!-- 顶部的 通栏        end-->
+
+        <!-- 弹出菜单部分       开始-->
+        <div class="pop_menu " id="pop_menuUl">
+            <ul>
+                <li><a href="index.html"><img src="img/pop_menu-index-icon.png" alt=""/><span>首页</span></a></li>
+                <li><a href="game-center.html"><img src="img/pop_menu-game-icon.png" alt=""/><span>游戏</span></a></li>
+                <li><a href="mygifts.html"><img src="img/pop_menu-gifts-icon.png" alt=""/><span>礼包</span></a></li>
+                <li><a href="information.html"><img src="img/pop_menu-information-icon.png" alt=""/><span>资讯</span></a></li>
+                <li><a href="recharge.html"><img src="img/pop_menu-recharge-icon.png" alt=""/><span>充值</span></a></li>
+            </ul>
+        </div>
+        <!-- 弹出菜单部分       end-->
+
+        <!-- 登录框部分       开始-->
+        <div class="login-box" id="login-box" style="display: none">
+            <p>
+                <span>会员登录</span>
+                <span id="close">&Chi;</span>
+            </p>
+            <form action="">
+                <input type="text" placeholder="输入你的帐号"/>
+                <input type="password" placeholder="输入你的密码"/>
+                <input type="submit" value="登录"/>
+            </form>
+            <p>
+                <span>没有帐号？<a href="register.html">立即注册</a></span><a>忘记密码?</a>
+            </p>
+        </div>
+        <!-- 弹出菜单部分       end-->
+
+        <!-- 顶部的 轮播图     开始 -->
+        <div class="gw_banner">
+            <ul class="banner_images clearfix">
+                <li><a href=""><img src="img/index-banner03.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner01.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner02.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner03.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner01.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner02.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner03.png" alt=""/></a></li>
+                <li><a href=""><img src="img/index-banner01.png" alt=""/></a></li>
+            </ul>
+            <ul class="banner_index clearfix">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- 顶部的 轮播图     end -->
+
+        <!-- 热门游戏     开始 -->
+        <div class="hgame">
+            <div class="hgame-t">
+                <div class="hgame-t-l fl">
+                    <i></i>
+                    <h3>热门游戏</h3>
+                </div>
+                <div class="hgame-t-r fr">
+                    <a href="">显示全部<b>&gt;</b></a>
+                </div>
+            </div>
+            <div class="hgame-f">
+                <div class="module">
+                    <a href=""></a>
+                    <h3>天堂2:血盟</h3>
+                    <a href="">预约</a>
+                    <p><b>首测资格</b><em>14W+</em><i>万人已预约</i></p>
+                </div>
+                <div class="module">
+                    <a href=""></a>
+                    <h3>我的恐龙</h3>
+                    <a href="">预约</a>
+                    <p><b>首测资格</b><em>14W+</em><i>万人已预约</i></p>
+                </div>
+            </div>
+        </div>
+        <!-- 热门游戏     end -->
+
+        <!-- 小轮播图部分     开始 -->
+        <div class="small_banner" id="small_banner">
+            <ul class="banner_images1 clearfix">
+                <li><a href=""><img src="img/small-banner03.png" alt=""/></a></li>
+                <li><a href=""><img src="img/small-banner01.png" alt=""/></a></li>
+                <li><a href=""><img src="img/small-banner02.png" alt=""/></a></li>
+                <li><a href=""><img src="img/small-banner03.png" alt=""/></a></li>
+                <li><a href=""><img src="img/small-banner01.png" alt=""/></a></li>
+            </ul>
+            <ul class="banner_index1 clearfix">
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul>
+        </div>
+        <!-- 小轮播图部分     end -->
+
+        <!-- 新闻列表部分     开始 -->
+        <div class="newslist">
+            <a href="">《我的恐龙》手游iOS首测11月10日开启 炫酷<br>
+                AR玩法来袭
+            </a>
+            <ul>
+                <li><i></i><a href="">《九阴》手游国庆新版今日公测</a></li>
+                <li><i></i><a href="">《黑暗与光明：战歌》iOS首测在即</a></li>
+                <li><i></i><a href="">《黑光》抢先体验版Steam正式上线</a></li>
+                <li><i></i><a href="">颠覆卡牌认知 《秘境对决》残局骚套路</a></li>
+                <li><i></i><a href="">《蜀门手游》新坐骑首曝！幽冥玄虎霸气登场！</a></li>
+            </ul>
+        </div>
+        <!-- 新闻列表部分     end -->
+
+        <!-- 广告部分     开始 -->
+        <div class="index_adv">
+            <a href=""></a>
+        </div>
+        <!-- 广告部分     end -->
+
+        <!-- 精品推荐     开始 -->
+        <div class="product_recommend">
+            <div class="product_recommend-t">
+                <div class="recommend-t-l fl">
+                    <i></i>
+                    <h3>精品推荐</h3>
+                </div>
+                <div class="recommend-t-r fr">
+                    <a href="">显示全部<b>&gt;</b></a>
+                </div>
+            </div>
+            <div class="product_recommend-f">
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>三国志2017</h4>
+                    <span>策略  270.4MB   20162下载</span>
+                    <b>光荣特库摩正版授权，全程提供技术支持！《三国…</b>
+                    <a href="">下载</a>
+                </div>
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>三国志2017</h4>
+                    <span>策略  270.4MB   20162下载</span>
+                    <b>光荣特库摩正版授权，全程提供技术支持！《三国…</b>
+                    <a href="">下载</a>
+                </div>
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>三国志2017</h4>
+                    <span>策略  270.4MB   20162下载</span>
+                    <b>光荣特库摩正版授权，全程提供技术支持！《三国…</b>
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+        <!-- 精品推荐     end -->
+
+        <!-- 热门礼包     开始 -->
+        <div class="hgifts">
+            <div class="product_recommend-t">
+                <div class="recommend-t-l fl">
+                    <i></i>
+                    <h3>热门礼包</h3>
+                </div>
+                <div class="recommend-t-r fr">
+                    <a href="">显示全部<b>&gt;</b></a>
+                </div>
+            </div>
+            <a href=""></a>
+            <div class="hgifts-f">
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>朕的江山感恩节礼包</h4>
+                    <span>有效期：2017-11-21到2017-11-30</span>
+                    <b>剩余：<em>1982</em></b>
+                    <a href="">立即领取</a>
+                </div>
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>朕的江山感恩节礼包</h4>
+                    <span>有效期：2017-11-21到2017-11-30</span>
+                    <b>剩余：<em>1982</em></b>
+                    <a href="">立即领取</a>
+                </div>
+                <div class="listbox">
+                    <a href=""></a>
+                    <h4>朕的江山感恩节礼包</h4>
+                    <span>有效期：2017-11-21到2017-11-30</span>
+                    <b>剩余：<em>1982</em></b>
+                    <a href="">立即领取</a>
+                </div>
+            </div>
+        </div>
+        <!-- 热门礼包     end -->
+
+        <!-- 热门攻略     开始 -->
+        <div class="hstrategy">
+            <div class="product_recommend-t">
+                <div class="recommend-t-l fl">
+                    <i></i>
+                    <h3>热门攻略</h3>
+                </div>
+                <div class="recommend-t-r fr">
+                    <a href="">显示全部<b>&gt;</b></a>
+                </div>
+            </div>
+            <div class="hstrategy-f">
+                <div class="xtbox">
+                    <a href=""></a>
+                    <span><a href="">全方位无死角VR手游《X战娘》…</a></span>
+                </div>
+                <div class="xtbox">
+                    <a href=""></a>
+                    <span><a href="">全方位无死角3D手游《探墓风云…</a></span>
+                </div>
+                <div class="xtbox">
+                    <a href=""></a>
+                    <span><a href="">全方位无死角VR手游《X战娘》…</a></span>
+                </div>
+                <div class="xtbox">
+                    <a href=""></a>
+                    <span><a href="">全方位无死角3D手游《探墓风云…</a></span>
+                </div>
+            </div>
+        </div>
+        <!-- 热门攻略     end -->
+
+        <!-- footer部分     开始 -->
+        <div class="footer">
+            <ul>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">商务合作</a></li>
+                <li><a href="">个人中心</a></li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <a href="">广东天启互动娱乐有限公司</a>
+            <p>粤网文[2016] 2600-152号 ICP证：粤B2-20100077 粤ICP备10215773号</p>
+        </div>
+        <!-- footer部分     end -->
+
+    </div>
+    <script src="js/slide.js"></script>
+    <script src="js/pop_menu.js"></script>
+</body>
+</html>

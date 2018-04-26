@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>产品服务</title>
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+    <link rel="stylesheet" href="swiper/css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/aboutus.css"/>
+</head>
+<body ontouchstart="">
+<!--顶部导航         开始-->
+<div class="top_nav">
+    <a href="" class="fl"><img src="img/top-logo.png" alt=""/></a>
+    <a href="" class="fr"><img src="img/top-menu.png" alt=""/></a>
+</div>
+<!--顶部导航         end-->
+
+<!--广告部分banner   开始-->
+<div class="advimg">
+    <a href=""><img src="img/aboutus-banner.png" alt=""/></a>
+</div>
+<!--广告部分banner   end-->
+
+<!--产品服务         开始-->
+<div class="aboutus product-serve">
+    <div class="aboutus-t">
+        <h3>
+            产品服务<br>
+            <span>PRODUCTS</span>
+        </h3>
+        <span><em></em></span>
+        <span><em></em></span>
+    </div>
+    <p>天启互娱业务包括游戏平台、游戏联运、游戏运营及直播等在内的
+        泛娱乐产业，关注95、00后的新娱乐消费形式。
+    </p>
+    <div class="product-f swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <div class="picture">
+                    <img src="img/product-img01.png" alt=""/>
+                    <img src="img/product-icon01.png" alt=""/>
+                </div>
+                <div class="boxcontent">
+                    <h4>游戏平台：</h4>
+                    <p>www.16yx.com（一流游戏）是全国领先的手机游戏平台，
+                        是手机游戏产业的前沿阵地，是最具潜力的当代休闲娱
+                        乐平台之一，致力于为用户提供最优质的产品和服务。
+                        手机游戏是当代游戏产业的重要组成部分，游戏类型丰
+                        富，如即时战斗类、回合制战斗类、策略类、休闲竞技
+                        类、动作类、模拟经营类等等，可满足不同用户群体的
+                        需求。
+                    </p>
+                </div>
+            </li>
+            <li class="swiper-slide">
+                <div class="picture">
+                    <img src="img/product-img02.png" alt=""/>
+                    <img src="img/product-icon02.png" alt=""/>
+                </div>
+                <div class="boxcontent">
+                    <h4>游戏联运：</h4>
+                    <p>提供游戏客户端、游戏更新包、充值系统、客服系统等必
+                        要资源，合作平台提供平台租用权、广告位等资源进行合
+                        作运营
+                    </p>
+                </div>
+            </li>
+            <li class="swiper-slide">
+                <div class="picture">
+                    <img src="img/product-img03.png" alt=""/>
+                    <img src="img/product-icon03.png" alt=""/>
+                </div>
+                <div class="boxcontent">
+                    <h4>游戏发行：</h4>
+                    <p>为开发者提供更专业的游戏推广资源和营销方案，使游戏产
+                        品达到一个更高的高度
+                    </p>
+                </div>
+            </li>
+            <li class="swiper-slide">
+                <div class="picture">
+                    <img src="img/product-img04.png" alt=""/>
+                    <img src="img/product-icon04.png" alt=""/>
+                </div>
+                <div class="boxcontent">
+                    <h4>直播运营：</h4>
+                    <p>网游、直播、二次元等等互动娱乐项目，已经成为我们的生活
+                        中不可缺少的一部分。目前，移动电竞已经成为游戏市场主
+                        流；国产动漫内容正在发力，成为资本注入的下一个领域；
+                        直播平台正在向泛娱乐直播上进行转型。随着泛娱乐行业的
+                        互动发展，娱乐形式也正在相互连接，共同繁荣整个泛娱乐
+                        行业。
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--关于我们         end-->
+
+<!--footer         开始-->
+<div class="footer">
+    <span>广东天启互动娱乐有限公司</span>
+    <p>沪网文<em>［2014］</em><b>0742-172号</b>沪ICP备11049082号-5</p>
+    <p> 增值电信业务经营许可证沪B2-20150098<em>新出网证</em><b>（沪）</b>字58号</p>
+</div>
+<!--footer         end-->
+<!--zepto    核心js-->
+<script src="zepto/zepto.min.js"></script
+        <!--zepto  selector   扩展性选择器-->
+<script src="zepto/selector.js"></script>
+<!--zepto  fx   提供animate动画-->
+<script src="zepto/fx.js"></script>
+<!--zepto  touch  提供手势事件-->
+<script src="zepto/touch.js"></script>
+<!--引入 swiper 插件-->
+<script src="swiper/js/swiper.jquery.min.js"></script>
+<script>
+    $(function(){
+        new Swiper('.swiper-container', {
+//            pagination: '.swiper-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            slidesOffsetAfter : 100,
+            coverflow: {
+                rotate: 60,
+                stretch: 20,
+                depth: 100,
+                modifier: 1,
+                slideShadows : false
+            }
+        });
+    });
+</script>
+</body>
+</html>

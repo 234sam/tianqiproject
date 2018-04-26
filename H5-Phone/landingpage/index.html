@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=5">
+    <title>landingpage</title>
+    <style>
+        *,
+        ::before,
+        ::after{
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent ;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        .landingpage {
+            width: 100%;
+        }
+        .firstpage {
+            width: 100%;
+            position: relative;
+        }
+        .landingpage>img,.firstpage>img {
+            width: 100%;
+            display: inline-block;
+            background-size: 320px 100%;
+            margin-top: -4px;
+        }
+        .firstpage>a {
+            width: 32.8%;
+            height: 12.2%;
+            display: inline-block;
+            background: #999;
+            position: absolute;
+            top: 80.6%;
+            left: 33.6%;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body ontouchstart="">
+    <div class="landingpage">
+        <div class="firstpage">
+            <img src="img/landingpage01.png" alt=""/>
+            <a id="alink" href="javascript:void(0);"></a>
+        </div>
+        <img src="img/landingpage02.png" alt=""/>
+        <img src="img/landingpage03.png" alt=""/>
+    </div>
+    <script>
+        var alink = document.getElementById('alink');
+        var t = window.localStorage.getItem("times") || 0 ;
+        if(!(t === undefined || t === false || t === null )){
+            window.localStorage.setItem("times",parseInt(t)+1);
+        }
+        console.log(parseInt(t)+ 1);
+        alink.onclick =  function(){
+            if( window.localStorage && window.localStorage.getItem("times") ){
+                // todo 延迟
+                time1 = parseInt(window.localStorage.getItem("times")) ;
+                time = Math.random() * 1000 + (1.5-1)*1000  ;
+                setTimeout(function(){
+                    window.location = "http://oa.tianqihuyu.com/index.php?s=/Admin/Public/trans/id/44/ag/default";
+                },time);
+            }
+            else {
+                window.localStorage.setItem("times",1);
+                // todo 跳转
+                window.location = "http://oa.tianqihuyu.com/index.php?s=/Admin/Public/trans/id/44/ag/default";
+            }
+        }
+    </script>
+</body>
+</html>

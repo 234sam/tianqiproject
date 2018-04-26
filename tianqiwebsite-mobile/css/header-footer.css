@@ -1,0 +1,248 @@
+/*header.css*/
+
+/*------------------最外层的容器盒子       开始*/
+    .gw_container {
+        width: 100%;
+        min-height: 800px;
+    }
+
+    /*-------------------顶部的 通栏       开始*/
+    .gw_header {
+        width: 100%;
+        height: 40px;
+        background-color: #EBEBEB;
+        position: fixed;
+        z-index: 99;
+    }
+    .gw_header>span:first-child {
+        width: 80px;
+        height: 30px;
+        display: inline-block;
+        float: left;
+        margin-top: 5px;
+        margin-left: 10px;
+        background: url("../img/header-logo-icon.png") no-repeat;
+        background-size: 71px 30px;
+    }
+    .gw_header>span:last-child {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+    .gw_header>span:last-child>span:first-child,.gw_header>span:last-child>span:last-child {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        float: left;
+        margin-top: 10px;
+        background: url("../img/header-user-icon.png") no-repeat;
+        background-size: 20px 20px;
+    }
+    .gw_header>span:last-child>span:last-child {
+        background: url("../img/header-menu-icon.png") no-repeat;
+        background-size: 20px 20px;
+        margin-left: 20px;
+    }
+    /*-------------------顶部的 通栏          end*/
+
+    /*-------------------弹出菜单部分       开始*/
+    .pop_menu {
+        width: 35%;
+        height: 0;
+        position: fixed;
+        top: 40px;
+        right: 0;
+        z-index: 99;
+        overflow: hidden;
+        border-radius: 5%;
+        background-color: rgba(243,243,243,0.96);
+    }
+    .pop_menu ul {
+        width: 100%;
+    }
+    .pop_menu ul li {
+        width: 100%;
+        height: 54px;
+    }
+    .pop_menu ul li:active {
+        background-color: #d3d3d3;
+    }
+    .pop_menu ul li:nth-child(2n) {
+        border-top: 1px solid #A5A5A5;
+        border-bottom: 1px solid #A5A5A5;
+    }
+    .pop_menu ul li a {
+        width: 100%;
+        display: inline-block;
+        height: 54px;
+        line-height: 54px;
+        padding-left: 15%;
+        color: #656565;
+        font-size: 16px;
+        font-family: "microsoft";
+    }
+    .pop_menu ul li a img {
+        width: 25%;
+        height: 26px;
+        display: inline-block;
+        float: left;
+        margin-top: 14px;
+        margin-right: 20px;
+    }
+    .pop_menu ul li a span {
+        height: 100%;
+        display: inline-block;
+        color: #656565;
+        font-size: 16px;
+        font-family: "microsoft";
+        float: left;
+    }
+    /*-------------------弹出菜单部分       end*/
+
+    /*-------------------登录框部分       开始*/
+    .login-box {
+        width: 90%;
+        height: 320px;
+        border-radius: 5px;
+        font-family: "microsoft";
+        background-color: #f3f3f3;
+        z-index: 100;
+        position: fixed;
+        top: 100px;
+        left: 5%;
+    }
+    .login-box>p:first-child {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px 5px 0 0;
+        background: linear-gradient(to top,#ffa704,#fffc02);
+        position: relative;
+    }
+    .login-box>p:first-child>span:first-child {
+        width: 100%;
+        line-height: 50px;
+        display: inline-block;
+        text-align: center;
+        font-size: 17px;
+        color: #fff;
+    }
+    .login-box>p:first-child>span:last-child {
+        display: inline-block;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+    }
+    .login-box>form:nth-child(2) {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .login-box>form:nth-child(2)>input:nth-child(-n+2) {
+        width: 100%;
+        height: 30px;
+        display: inline-block;
+        line-height: 30px;
+        font-size: 15px;
+        color: #c8c8c8;
+        padding-left: 70px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #999;
+
+    }
+    .login-box>form:nth-child(2)>input:first-child {
+        background: url("../img/index-login-box-icon1.png") no-repeat;
+        background-size: 20px 20px;
+        background-position: 10px center ;
+    }
+    .login-box>form:nth-child(2)>input:nth-child(2) {
+        background: url("../img/index-login-box-icon2.png") no-repeat;
+        background-size: 20px 20px;
+        background-position: 10px center ;
+    }
+    .login-box>form:nth-child(2)>input:last-child {
+        margin-top: 10px;
+    }
+    .login-box>p:last-child {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        color: #c8c8c8;
+        font-size: 14px;
+        font-family: "microsoft";
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .login-box>p:last-child>span:first-child>a {
+        color: #fd1e1e;
+    }
+    .login-box>p:last-child>a {
+        float: right;
+        text-decoration: underline;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+/*------------------footer部分     开始*/
+    .footer {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        background-color: #3B3B3B;
+    }
+    .footer ul {
+        width: 70%;
+        height: 16px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        margin-left: -35%;
+    }
+    .footer ul li {
+        width: 25%;
+        height: 16px;
+        line-height: 16px;
+        float: left;
+        text-align: center;
+        font-size: 12px;
+        font-family: "microsoft";
+    }
+    .footer ul li a {
+        color: #fff;
+    }
+    .footer>a {
+        width: 50%;
+        height: 16px;
+        display: inline-block;
+        line-height: 16px;
+        text-align: center;
+        font-size: 12px;
+        font-family: "microsoft";
+        color: #999;
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        margin-left: -25%;
+    }
+    .footer>p {
+        width: 100%;
+        height: 10px;
+        line-height: 15px;
+        text-align: center;
+        font-size: 10px;
+        font-family: "microsoft";
+        color: #999;
+        position: absolute;
+        top: 60px;
+    }
+    /*------------------footer部分     end*/

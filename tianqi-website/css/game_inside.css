@@ -1,0 +1,401 @@
+/*game_inside.css*/
+
+    div.information-message {
+        height: 2150px;
+    }
+    div.information-message .information-r {
+         height: auto;
+    }
+    div.route {
+        height: 200px;
+    }
+
+    /*游戏截图        开始*/
+    .game_screenshot {
+        height: 560px;
+        padding: 0 22px;
+        background-color: #fff;
+        /*overflow: hidden;*/
+        font-family: "microsoft";
+    }
+    .game_screenshot>p:first-child {
+        height: 40px;
+        border-bottom: 1px solid #ededed;
+    }
+    .game_screenshot>p:first-child span{
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        padding-left: 5px;
+        font-size: 18px;
+        color: #000;
+    }
+    .game_screenshot>p:first-child span:hover {
+        border-bottom: 1px solid #fd960b;
+    }
+    .game_screenshot .gameimg {
+        margin-top: 10px;
+    }
+    .game_screenshot .gameimg img {
+        margin-right: 15px;
+    }
+    .game_screenshot .gameimg>a:last-child img {
+        margin-right: 0;
+    }
+    .game_screenshot>span:nth-child(3) {
+        margin-top: 40px;
+        font-size: 16px;
+        color: #000;
+        display: inline-block;
+    }
+    .game_screenshot>p:nth-child(4) {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: #000;
+        letter-spacing: 1px;
+    }
+    .game_screenshot>span:last-child {
+        width: 70px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        color: #fd960b;
+        border-radius: 5px;
+        border: 1px solid #fd960b;
+        margin-top: 20px;
+        margin-left: 700px;
+    }
+    .game_screenshot>span:last-child:hover {
+        color: #fff;
+        background-color: #fd960b;
+    }
+    /*游戏截图        end*/
+
+
+/*----------------------游戏新闻        开始*/
+    .newssuggest {
+        margin-top: 16px;
+        background-color: #fff;
+    }
+    .newssuggest-t {
+        height: 40px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .newssuggest-t ul li {
+        width: 100px;
+        height: 40px;
+        float: left;
+        line-height: 40px;
+        text-align: center;
+        border-right: 1px solid #EDEDED;
+        font-family: "microsoft";
+        font-size: 18px;
+    }
+    .newssuggest-t ul li a {
+        color: #666;
+    }
+    .newssuggest-t ul li:hover {
+        background-color: #EDEDED;
+        color: #000;
+        border-bottom: 1px solid #FDAF1D;
+    }
+    .newssuggest-t ul li:hover a {
+        color: #000;
+    }
+    .newssuggest-t>a:last-child {
+        float: right;
+        font-size: 14px;
+        color: #999;
+        font-family: "microsoft";
+        margin: 15px 10px 10px 0;
+    }
+    .newssuggest-item {
+        height: 120px;
+        padding: 0 22px;
+        overflow: hidden;
+        font-family: "microsoft";
+        border-bottom: 1px solid #F7F7F7;
+    }
+    .newssuggest-item>a:first-child img {
+        float: left;
+        margin: 16px 20px 16px 5px;
+    }
+    .newssuggest-item>h4:nth-child(2) {
+        font-size: 16px;
+        color: #000;
+        font-weight: normal;
+        margin-top: 16px;
+    }
+    .newssuggest-item>p:nth-child(3) {
+        font-size: 14px;
+        color: #666;
+        line-height: 20px;
+    }
+    .newssuggest-item>p:nth-child(3) a {
+        color: #3774ff;
+    }
+    .newssuggest-item>span:last-child {
+        font-size: 12px;
+        color: #999;
+        line-height: 25px;
+    }
+    .newssuggest-f {
+        height: 84px;
+        margin-top: 30px;
+    }
+    .newssuggest-f ul {
+        height: 34px;
+        margin-left: 300px;
+    }
+    .newssuggest-f ul li {
+        float: left;
+    }
+    .newssuggest-f ul li i:hover {
+        background-color: #FCAE1D;
+        color: #fff;
+    }
+    .newssuggest-f ul li .i1,.newssuggest-f ul li .i9 {
+        width: 50px;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #434343;
+        text-align: center;
+        background-color: #F7F7F7;
+        margin-right: 5px;
+    }
+    .newssuggest-f ul li .i2,.newssuggest-f ul li .i8 {
+        width: 64px;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #434343;
+        text-align: center;
+        background-color: #F7F7F7;
+        margin-right: 5px;
+    }
+    .newssuggest-f ul li .i3,.newssuggest-f ul li .i4,.newssuggest-f ul li .i5,
+    .newssuggest-f ul li .i6,.newssuggest-f ul li .i7{
+        width: 30px;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #434343;
+        text-align: center;
+        background-color: #F7F7F7;
+        margin-right: 5px;
+    }
+/*----------------------游戏新闻        end*/
+
+/*----------------------热门游戏/最新游戏        开始*/
+    .hg {
+        width: 836px;
+        height: 154px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    .hg p {
+        width: 780px;
+        height: 25px;
+        margin-left: 25px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .hg p a {
+        width: 75px;
+        height: 25px;
+        display: inline-block;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: "microsoft";
+        color: #434343;
+    }
+    .hg p a:hover {
+        border-bottom: 1px solid #FD950B;
+    }
+    .hg ul {
+        width: 788px;
+        height: 94px;
+        margin: 20px 25px 10px 25px;
+    }
+    .hg ul li {
+        width: 69px;
+        height: 94px;
+        float: left;
+        margin-right: 50px;
+    }
+    .hg ul li.li7 {
+        margin-right: 0;
+    }
+    .hg ul li .i1,.hg ul li .i4 {
+        width: 69px;
+        height: 69px;
+        display: inline-block;
+        margin: 0 5px;
+        background: url("../hg/hg01.png");
+    }
+    .hg ul li .i2,.hg ul li .i5,.hg ul li .i7 {
+        width: 69px;
+        height: 69px;
+        display: inline-block;
+        margin: 0 5px;
+        background: url("../hg/hg02.png");
+    }
+    .hg ul li .i3,.hg ul li .i6 {
+        width: 69px;
+        height: 69px;
+        display: inline-block;
+        margin: 0 5px;
+        background: url("../hg/hg03.png");
+    }
+    .hg ul li em {
+        width: 80px;
+        height: 21px;
+        display: inline-block;
+        line-height: 21px;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #434343;
+        text-align: center;
+    }
+/*----------------------热门游戏/最新游戏        end*/
+
+/*----------------------发表评论        开始*/
+    div.comment-all {
+        height: auto;
+    }
+    div.comment-all .zuixing {
+        border-bottom: none;
+    }
+    div.zuixing ul {
+        bottom: 2px;
+    }
+    div.zuixing p b {
+        font-size: 14px;
+        color: #999999;
+        margin-left: 348px;
+    }
+    div.zuixing p i {
+        font-size: 14px;
+        color: #999;
+    }
+/*----------------------发表评论        end*/
+
+/*----------------------右边大盒子      开始*/
+
+    /*----------------------热门礼包      开始*/
+    .gift-go {
+        background-color: #fff;
+        margin-top: 20px;
+    }
+    .gift-go p {
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #F7F7F7;
+    }
+    .gift-go p a {
+        display: inline-block;
+        font-size: 18px;
+        color: #434343;
+        font-family: "microsoft";
+        padding-left: 10px;
+    }
+    .gift-go p a:hover {
+        border-bottom: 1px solid #FDAF1D;
+    }
+    .gift-go ul {
+        height: 100%;
+
+    }
+    .gift-go ul li {
+        height: 60px;
+        overflow: hidden;
+        font-family: "microsoft";
+        border-bottom: 1px solid #F7F7F7;
+        position: relative;
+    }
+    .gift-go ul li>a:first-child img{
+        float: left;
+        margin: 12px 5px 12px 10px;
+    }
+    .gift-go ul li>h5:nth-child(2) {
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .gift-go ul li>span:nth-child(3) {
+        font-size: 12px;
+        color: #999;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .gift-go ul li>a:last-child {
+        width: 76px;
+        height: 30px;
+        display: inline-block;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fdaf1e;
+        border: 1px solid #fdaf1e;
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+    }
+    .gift-go ul li>a:last-child:hover {
+        color: #fff;
+        background-color: #fdaf1e;
+    }
+    .gift-go ul li:nth-child(n+2) {
+        height: 44px;
+        line-height: 44px;
+    }
+    .gift-go ul li:nth-child(n+2)>span:first-child {
+        font-size: 14px;
+        color: #999;
+        margin-left: 8px;
+    }
+    .gift-go ul li:nth-child(n+2)>a:last-child {
+        bottom: 5px;
+    }
+    /*----------------------热门礼包      end*/
+
+    /*----------------------火爆活动      开始*/
+    .hh>a:nth-child(n+2) {
+        width: 320px;
+        height: 160px;
+        display: inline-block;
+        margin: 10px;
+        background: url("../img/game_inside-hh-img01.png");
+        background-size: 320px 160px;
+    }
+    .hh>a:nth-child(3) {
+        width: 320px;
+        height: 139px;
+        margin-top: 0;
+        background: url("../img/game_inside-hh-img02.png");
+        background-size: 320px 139px;
+    }
+    /*----------------------火爆活动      end*/
+
+
+
+
+
+    
+
+
+
+
+

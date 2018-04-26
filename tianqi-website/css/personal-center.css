@@ -1,0 +1,521 @@
+/*personal-center.css*/
+
+/*------------------------个人中心    开始*/
+    .personal-center {
+        width: 1207px;
+        height: 750px;
+        margin: 0 auto;
+    }
+    .personal-t {
+        width: 1207px;
+        height: 45px;
+    }
+    .personal-t ul {
+        width: 160px;
+        height: 28px;
+        padding-top: 12px;
+    }
+    .personal-t ul li {
+        height: 19px;
+        line-height: 19px;
+        float: left;
+        font-size: 12px;
+        font-family: "microsoft";
+    }
+    .personal-t ul li a {
+        color: #000;
+    }
+    .personal-f {
+        width: 1207px;
+        height: 669px;
+        font-family: "microsoft";
+        background: url("../img/personal-bg.png");
+    }
+    .personal-f-l {
+        width: 342px;
+        height: 661px;
+        margin: 2px 0 0 1px;
+        border-right: 1px solid #E5E5E5;
+    }
+    .personal-f-l p {
+        width: 342px;
+        height: 192px;
+        background-color: #FDFEFF;
+    }
+    .personal-f-l span:first-child {
+        width: 106px;
+        height: 106px;
+        display: inline-block;
+        margin: 40px 120px 0;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        background: url("../img/personal-icon.png");
+    }
+    .personal-f-l span:first-child i {
+        width: 100%;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        background-color: #000;
+        opacity: 0.49;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .personal-f-l span:nth-child(2) {
+        font-size: 16px;
+        color: #434343;
+        margin-left: 100px;
+    }
+    .personal-f-l>ul {
+        width: 340px;
+        height: 279px;
+        margin-left: 1px;
+        background-color: #F7F7F7;
+    }
+    .personal-f-l>ul>li {
+        width: 303px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 16px;
+        color: #333333;
+        padding-left: 37px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .on {
+        color: #fff;
+        background-color: #FDAF1D;
+    }
+    .personal-f-l ul .li1 {
+        width: 340px;
+        height: 138px;
+        padding-left: 0;
+    }
+    .personal-f-l ul .li1 ul  {
+        width: 340px;
+        height: 92px;
+        display: inline-block;
+    }
+    .personal-f-l ul .li1  ul li {
+        width: 340px;
+        height: 46px;
+        display: inline-block;
+        line-height: 46px;
+        font-size: 16px;
+        color: #333333;
+    }
+    .personal-f-l ul .li1 ul em {
+        margin-left: 76px;
+    }
+
+    .personal-f-l ul .li1 ul li:first-child {
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .personal-f-l ul .li1 i {
+        width: 19px;
+        height: 14px;
+        display: inline-block;
+        margin-left: 37px;
+        background: url("../img/message-g-icon.png");
+    }
+
+    .personal-f-l ul li:nth-child(2) i {
+        width: 20px;
+        height: 16px;
+        display: inline-block;
+        background: url("../img/serial-g-icon.png");
+    }
+    .personal-f-l ul li:nth-child(3) i {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url("../img/personal-g-icon.png");
+    }
+    .personal-f-l ul li:nth-child(4) i {
+        width: 18px;
+        height: 20px;
+        display: inline-block;
+        background: url("../img/safe-g-icon.png");
+    }
+    .personal-f-l ul li i {
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .personal-f-l ul li b {
+        width: 10px;
+        height: 16px;
+        display: inline-block;
+        float: right;
+        margin: 15px 20px 0 0;
+        background: url("../img/arrright-g-icon.png");
+    }
+    .personal-f-r {
+        width: 860px;
+        height: 662px;
+    }
+
+    /*--------------------------个人资料    开始*/
+    .gerenziliao,.mygif {
+        width: 860px;
+        height: 662px;
+        display: none;
+    }
+    .zhanghuanquan {
+        width: 860px;
+        height: 662px;
+        display: none;
+    }
+    .huodongxinxi {
+        width: 860px;
+        height: 662px;
+        display: none;
+    }
+    .xitongxinxi {
+        width: 860px;
+        height: 662px;
+        display: none;
+    }
+
+    .gerenziliao>span,.zhanghuanquan>span,.mygif>span,.huodongxinxi>span,
+    .xitongxinxi>span{
+        width: 860px;
+        height: 73px;
+        display: inline-block;
+        margin-left: -4px;
+        border-bottom: 1px solid #DDDDDD;
+    }
+    .gerenziliao>span>h2,.zhanghuanquan>span>h2,.mygif>span>h2,
+    .huodongxinxi>span>h2,.xitongxinxi>span>h2{
+        width: 78px;
+        height: 25px;
+        font-size: 18px;
+        color: #434343;
+        margin: 28px 0 20px 37px;
+    }
+    .gerenziliao form {
+        width: 451px;
+        height: 429px;
+        line-height: 45px;
+        margin: 44px 292px 0 115px;
+        font-size: 14px;
+        color: #434343;
+
+    }
+    .gerenziliao form input:last-child{
+        width: 278px;
+        height: 36px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "microsoft";
+        color: #fff;
+        background-color: #FCAE1D;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+    /*--------------------------个人资料    end*/
+
+    /*--------------------------账户安全    开始*/
+    .zhanghuanquan .bigbox {
+        width: 860px;
+        height: 564px;
+    }
+    .bigbox ul {
+        width: 420px;
+        height: 200px;
+        margin: 25px 0 0 25px;
+    }
+    .bigbox ul li {
+        width: 180px;
+        height: 178px;
+        margin-right: 25px;
+        float: left;
+        font-family: "microsoft";
+        font-size: 18px;
+        color: #333333;
+        background-color: #FDFEFF;
+        border: 1px solid #CED4D6;
+    }
+    .bigbox ul li:first-child i {
+        width: 66px;
+        height: 77px;
+        display: inline-block;
+        margin: 18px 55px;
+        background: url("../img/lock-icon.png");
+    }
+    .bigbox ul li:first-child b {
+        width: 180px;
+        height: 23px;
+        display: inline-block;
+        font-weight: normal;
+        line-height: 23px;
+        text-align: center;
+        color: #535454;
+    }
+    .bigbox ul li:nth-child(2) i {
+        width: 57px;
+        height: 81px;
+        display: inline-block;
+        margin: 15px 65px 10px;
+        background: url("../img/anquan-phone1-icon.png");
+    }
+    .bigbox ul li:nth-child(2) span {
+        width: 145px;
+        height: 15px;
+        font-size: 15px;
+        margin-left: 33px;
+        display: inline-block;
+    }
+    .bigbox ul li:nth-child(2) span b {
+        color: #FF0000;
+        font-weight: normal;
+    }
+    .bigbox ul li:nth-child(2) em {
+        width: 107px;
+        height: 15px;
+        line-height: 20px;
+        color: #666666;
+        font-size: 15px;
+        margin: 5px 0 0 40px;
+        text-align: center;
+        display: inline-block;
+    }
+    .bigbox ul li:nth-child(2) a b {
+        width: 35px;
+        height: 15px;
+        line-height: 20px;
+        font-weight: normal;
+        color: #535454;
+        font-size: 15px;
+        margin-left: 73px;
+        text-align: center;
+        display: inline-block;
+    }
+    /*--------------------------账户安全    end*/
+
+    /*----------------------序列号        开始*/
+    .mygif p {
+        width: 290px;
+        height: 36px;
+        position: absolute;
+        top: 208px;
+        right: 411px;
+    }
+    .mygif p input[type="text"] {
+        width: 229px;
+        height: 36px;
+        background-color: #FDFEFF;
+        border: 1px solid #E6E6E6;
+        font-size: 14px;
+        color: #999999;
+        font-family: "microsoft";
+        border-radius: 5px;
+        padding-left: 20px;
+    }
+    .mygif button {
+        width: 33px;
+        height: 21px;
+        font-size: 14px;
+        color: #999999;
+        margin-left: 5px;
+        font-family: "microsoft";
+    }
+    .giftbox {
+        width: 840px;
+        height: 471px;
+        margin: 0 auto;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .giftbox .xiangtong {
+        width: 270px;
+        height: 112px;
+        border: 1px solid #E5E5E5;
+        float: left;
+        position: relative;
+    }
+    .giftbox .xiangtong i {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        float: left;
+        margin: 12px 20px 18px 10px;
+        background: url("../img/personal-giftbox-icon.png");
+    }
+    .giftbox .xiangtong span {
+        width: 78px;
+        height: 25px;
+        display: inline-block;
+        font-size: 18px;
+        color: #434343;
+        font-family: "microsoft";
+        margin-top: 30px;
+    }
+    .giftbox .xiangtong b {
+        width: 85px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #9E9E9E;
+        font-family: "microsoft";
+    }
+    .giftbox .xiangtong em {
+        width: 107px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #9E9E9E;
+        font-family: "microsoft";
+    }
+    .giftbox .xiangtong span:last-child {
+        width: 43px;
+        height: 26px;
+        line-height: 26px;
+        padding-left: 17px;
+        display: inline-block;
+        background-color: #FCAE1D;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "microsoft";
+        position: absolute;
+        bottom: 22px;
+        right: 11px;
+    }
+    .giftbox .xiangtong-t,.giftbox .xiangtong-m,
+    .giftbox .xiangtong-f{
+        width: 861px;
+        height: 112px;
+        margin-top: 15px;
+    }
+    .giftbox .center1,.giftbox .center2,
+    .giftbox .center3 {
+        margin: 0 10px;
+    }
+    .mygift-f {
+        width: 199px;
+        height: 25px;
+        margin: 45px auto;
+    }
+    .mygift-f span:first-child,.mygift-f span:last-child {
+        width: 50px;
+        height: 25px;
+        display: inline-block;
+        font-size: 16px;
+        color: #000;
+        font-family: "microsoft";
+    }
+    .mygift-f span:nth-child(2) {
+        width: 27px;
+        height: 27px;
+        line-height: 27px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        margin: 0 30px;
+        font-family: "microsoft";
+        background-color: #FDAF1D;
+    }
+    /*----------------------序列号        end*/
+
+    /*----------------------活动消息        开始*/
+    .huodongxinxi-m {
+        width: 826px;
+        height: 381px;
+        margin: 34px 0 0 30px;
+    }
+    .huodongxinxi-m p:first-child {
+        width: 826px;
+        height: 25px;
+    }
+    .huodongxinxi-m p:first-child span {
+        width: 252px;
+        height: 25px;
+        float: left;
+        display: inline-block;
+        line-height: 25px;
+        font-size: 18px;
+        font-family: "microsoft";
+        color: #434343;
+        margin-bottom: 15px;
+    }
+    .xitongxinxi p:first-child span {
+        color: #000;
+    }
+    .huodongxinxi-m p:first-child b {
+        width: 83px;
+        height: 21px;
+        float: left;
+        display: inline-block;
+        line-height: 21px;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #999999;
+        margin: 4px 15px 0 475px;
+    }
+    .huodongxinxi-m p:nth-child(2) {
+        width: 798px;
+        height: 63px;
+        float: left;
+        line-height: 23px;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #656565;
+
+    }
+    .huodongxinxi-m ul {
+        width: 803px;
+        height: 182px;
+        float: left;
+        margin: 20px 0 0 -10px;
+        border-top: 1px solid #959595;
+
+    }
+    .huodongxinxi-m ul li {
+        width: 803px;
+        height: 49px;
+        line-height: 49px;
+        padding-left: 10px;
+        border-bottom: 1px solid #959595;
+    }
+    .huodongxinxi-m ul li a {
+        width: 793px;
+        height: 23px;
+        line-height: 23px;
+        display: inline-block;
+        font-size: 16px;
+        color: #434343;
+        font-family: "microsoft";
+    }
+    .xitongxinxi ul li a {
+        font-size: 18px;
+        margin-top: 15px;
+        color: #000;
+    }
+    .xitongxinxi ul li a em {
+        float: right;
+        margin-top: -20px;
+        color: #999;
+    }
+
+    .huodongxinxi-m ul li a em {
+        width: 83px;
+        height: 23px;
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 600px;
+    }
+    /*----------------------活动消息        end*/
+
+
+
+
+
+
+
+    
+

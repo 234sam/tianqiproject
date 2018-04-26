@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>充值页</title>
+    <link rel="stylesheet" href="css/recharge.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+</head>
+<body ontouchstart="">
+<!-- 最外层的容器盒子       开始-->
+<div class="gw_container">
+
+    <!-- 顶部的 通栏       开始-->
+    <div class="gw_header clearfix" id="gwheader">
+        <span></span>
+            <span>
+                <a href=""></a>
+                <span id="dianji"></span>
+            </span>
+    </div>
+    <!-- 顶部的 通栏        end-->
+
+    <!-- 弹出菜单部分       开始-->
+    <div class="pop_menu " id="pop_menuUl">
+        <ul>
+            <li><a href="index.html"><img src="img/pop_menu-index-icon.png" alt=""/><span>首页</span></a></li>
+            <li><a href="game-center.html"><img src="img/pop_menu-game-icon.png" alt=""/><span>游戏</span></a></li>
+            <li><a href="mygifts.html"><img src="img/pop_menu-gifts-icon.png" alt=""/><span>礼包</span></a></li>
+            <li><a href="information.html"><img src="img/pop_menu-information-icon.png" alt=""/><span>资讯</span></a></li>
+            <li><a href="recharge.html"><img src="img/pop_menu-recharge-icon.png" alt=""/><span>充值</span></a></li>
+        </ul>
+    </div>
+    <!-- 弹出菜单部分       end-->
+
+    <!-- 充值部分       开始-->
+    <div class="recharge" id="recharge">
+        <div class="recharge-h">
+            <ul class="clearfix" id="recharge-hul">
+                <li class="onli"><span class="ona">游戏充值</span><i><b style="display: block"></b></i></li>
+                <li><span>联系客服</span><i><b></b></i></li>
+            </ul>
+        </div>
+        <!--游戏充值部分     开始-->
+        <form id="biaoge">
+            <span>充值帐号 <input type="text" placeholder="请输入充值帐号"/></span>
+            <span>选择游戏 <i></i><input id="inputbtn" type="text" placeholder="选择充值游戏" /></span>
+            <span>游戏系统 <i></i><input id="systembtn" type="text" placeholder="选择游戏系统"/></span>
+            <span>充值金额 <i></i><input id="rechargebtn" type="text" placeholder="选择充值金额"/></span>
+            <span><input type="text" placeholder="其它金额"/><i>*</i>单笔充值最少10元</span>
+            <span id="paymode">支付方式 <img src="img/recharge_wxzf_n_img.png" alt=""/><img src="img/recharge_zfb_n_img.png" alt=""/></span>
+            <input type="submit" value="立即充值"/>
+        </form>
+        <ul id="gametanchu">
+            <li>选择充值游戏</li>
+            <li><i>&gt;</i>天神主宰</li>
+            <li><i>&gt;</i>太虚界</li>
+            <li><i>&gt;</i>盗墓笔记</li>
+            <li><i>&gt;</i>战神三十六计</li>
+            <li><i>&gt;</i>青云决</li>
+            <li><i>&gt;</i>新射雕英雄传</li>
+            <li><i>&gt;</i>黑暗与光明：战歌</li>
+            <li><i>&gt;</i>联的江山</li>
+        </ul>
+        <ul id="gamesystem">
+            <li>选择游戏系统</li>
+            <li><i>&gt;</i>IOS系统</li>
+            <li><i>&gt;</i>android</li>
+        </ul>
+        <ul id="gamerecharge">
+            <li>选择充值金额</li>
+            <li><i>&gt;</i>1元</li>
+            <li><i>&gt;</i>10元</li>
+            <li><i>&gt;</i>30元</li>
+            <li><i>&gt;</i>50元</li>
+            <li><i>&gt;</i>100元</li>
+            <li><i>&gt;</i>300元</li>
+            <li><i>&gt;</i>500元</li>
+            <li><i>&gt;</i>1000元</li>
+        </ul>
+        <!--游戏充值部分     end-->
+
+        <!--联系客服部分     开始-->
+        <div class="customer-service" id="customers">
+            <div class="wxkf clearfix">
+                <a href=""><img src="img/customer-service-wx-img.png" alt=""/></a>
+                <span><a href="">官方微信客服</a></span>
+                <span>周一至周日24小时在线</span>
+            </div>
+            <div class="qqkf">
+                <a href=""><img src="img/customer-service-qq-img.png" alt=""/></a>
+                <span><a href="">QQ在线客服</a></span>
+                <span>周一至周日24小时在线</span>
+            </div>
+            <div class="dhkf">
+                <a href=""><img src="img/customer-service-dh-img.png" alt=""/></a>
+                <span><a href="">客服服务电话</a></span>
+                <span>周一至周日24小时在线</span>
+            </div>
+        </div>
+        <!--联系客服部分     end-->
+    </div>
+    <!-- 充值部分       end-->
+
+    <!-- footer部分     开始 -->
+    <div class="footer">
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">商务合作</a></li>
+            <li><a href="">个人中心</a></li>
+            <li><a href="">联系我们</a></li>
+        </ul>
+        <a href="">广东天启互动娱乐有限公司</a>
+        <p>粤网文[2016] 2600-152号 ICP证：粤B2-20100077 粤ICP备10215773号</p>
+    </div>
+    <!-- footer部分     end -->
+
+</div>
+<!--<script src="js/slide.js"></script>-->
+<script src="js/pop_menu.js"></script>
+<script src="js/recharge.js"></script>
+</body>
+</html>

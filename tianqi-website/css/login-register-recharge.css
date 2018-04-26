@@ -1,0 +1,1186 @@
+/*login-register-recharge.css*/
+
+    /*--------------------登录部分       开始*/
+    .denglu {
+        width: 1920px;
+        height: 650px;
+    }
+    .route {
+        width: 1200px;
+        height: 28px;
+        margin: 0 auto;
+    }
+    .route ul {
+        width: 160px;
+        height: 28px;
+    }
+    .route ul li {
+        height: 19px;
+        line-height: 19px;
+        float: left;
+        font-size: 12px;
+        font-family: "microsoft";
+    }
+    .route ul li a {
+        color: #000;
+    }
+    .login-box {
+        width: 1920px;
+        height: 622px;
+        background: url("../img/login-bg.png");
+        position: relative;
+    }
+    .login-box .smallbox {
+        width: 300px;
+        height: 360px;
+        background-color: #F5F5F4;
+        z-index: 1;
+        border-radius: 5px;
+        position: absolute;
+        top: 97px;
+        right: 372px;
+    }
+    .smallbox p:first-child {
+        width: 238px;
+        height: 25px;
+        margin: 48px 30px 24px;
+    }
+    .smallbox p:first-child i {
+        width: 70px;
+        height: 1px;
+        display: inline-block;
+        background-color: #FDAF1D;
+        position: relative;
+        bottom: 5px;
+        left: 0;
+    }
+    .smallbox p:first-child em {
+        width: 78px;
+        height: 25px;
+        line-height: 25px;
+        display: inline-block;
+        color: #FDAF1E;
+        font-size: 18px;
+        font-family: "microsoft";
+        margin: 0 5px;
+    }
+    .smallbox span {
+        width: 249px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #AAAAAA;
+        margin-left: 25px;
+        margin-bottom: 22px;
+        background-color: #F6F6F4;
+        position: relative;
+    }
+    .smallbox span:nth-child(2) i {
+        width: 19px;
+        height: 21px;
+        display: inline-block;
+        background: url("../img/login-user-icon.png");
+        margin: 10px 15px 12px 10px;
+    }
+    .smallbox span:nth-child(3) i {
+        width: 18px;
+        height: 22px;
+        display: inline-block;
+        background: url("../img/login-lock-icon.png");
+        margin: 10px 15px 12px 10px;
+    }
+    .smallbox span input {
+        width: 215px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        border-radius: 5px;
+        border: none;
+        background-color: #F6F6F4;
+        position: absolute;
+        top: 0;
+        left: 34px;
+    }
+    .smallbox input[type="submit"] {
+        width: 249px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid #AAAAAA;
+        background-color: #F6F6F4;
+        margin-left: 25px;
+        margin-bottom: 22px;
+    }
+    .smallbox input[type="submit"]:active {
+        background-color: #F19E03;
+        color: #fff;
+    }
+    .smallbox p:last-child {
+        width: 249px;
+        height: 21px;
+        line-height: 21px;
+        margin-left: 25px;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #969696;
+    }
+    .smallbox p:last-child a:nth-child(2) {
+        color: #FD1E1E;
+        margin-right: 50px;
+    }
+    .smallbox p:last-child a:nth-child(3) {
+        color: #969696;
+        text-decoration: underline;
+    }
+    /*--------------------登录部分       end*/
+
+    /*--------------------注册部分       开始*/
+    .register {
+        height: 700px;
+    }
+    .register-f {
+        width: 600px;
+        height: 622px;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .register-f .register-box {
+        width: 534px;
+        height: 503px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .register-box p:first-child {
+        width: 455px;
+        height: 28px;
+        padding-top: 50px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .register-box p:first-child i {
+        width: 160px;
+        height: 1px;
+        display: inline-block;
+        background-color: #FDAF1D;
+        position: relative;
+        bottom: 5px;
+        left: 0;
+    }
+    .register-box p:first-child em {
+        width: 86px;
+        height: 28px;
+        line-height: 28px;
+        display: inline-block;
+        color: #FDAF1E;
+        font-size: 20px;
+        font-family: "microsoft";
+        margin: 0 20px;
+    }
+    .register-box span:nth-child(2),.register-box span:nth-child(3),
+    .register-box span:nth-child(4),.register-box span:nth-child(5),
+    .register-box input:last-child {
+        width: 504px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        margin-top: 35px;
+        border: 1px solid #AAAAAA;
+        border-radius: 5px;
+        position: relative;
+    }
+    .register-box span:nth-child(2) i,.register-box span:nth-child(3) i,
+    .register-box span:nth-child(4) i,.register-box span:nth-child(5) i{
+        width: 19px;
+        height: 21px;
+        display: inline-block;
+        margin: 10px 20px;
+        background: url("../img/login-user-icon.png");
+    }
+    .register-box span:nth-child(2) input,.register-box span:nth-child(3) input,
+    .register-box span:nth-child(4) input,.register-box span:nth-child(5) input {
+        width: 451px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        border-radius: 5px;
+        border: none;
+        color: #434343;
+        font-size: 16px;
+        font-family: "microsoft";
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 50PX;
+    }
+
+    /*---------------------------账号注册提示信息      开始*/
+    .register-box span:nth-child(2) b {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        background: url("../img/register-icon-y.png");
+        display: none;
+        position: absolute;
+        top: 6px;
+        right: -34px;
+    }
+    .register-box span:nth-child(2) b {
+        background: url("../img/register-icon-n.png");
+        position: absolute;
+        top: 6px;
+        right: -34px;
+        display: none;
+    }
+    .register-box span:nth-child(2) em,.register-box span:nth-child(4) em,
+    .register-box span:nth-child(5) em{
+        width: 215px;
+        height: 21px;
+        line-height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #FF0000;
+        font-family: "microsoft";
+        display: none;
+        position: absolute;
+        top: 42px;
+        left: 20px;
+    }
+    /*-------------------------账号注册提示信息      end*/
+    .register-box span:nth-child(3) {
+        width: 381px;
+        height: 40px;
+    }
+    .register-box span:nth-child(3) i {
+        width: 17px;
+        height: 20px;
+        background: url("../img/login-Verification-icon.png");
+    }
+    .register-box span:nth-child(3) input {
+        width: 331px;
+        height: 40px;
+    }
+    .register-box span:nth-child(3) button {
+        width: 100px;
+        height: 40px;
+        background-color: #FDAF1D;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        right: -120px;
+    }
+    .register-box span:nth-child(4) i,.register-box span:nth-child(5) i {
+        width: 18px;
+        height: 22px;
+        background: url("../img/login-lock-icon.png");
+    }
+    .register-box>p:nth-child(6) {
+        width: 475px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 14px;
+        font-family: "microsoft";
+        margin: 40px 20px 40px;
+        position: relative;
+    }
+    .register-box>p:nth-child(6) i {
+        width: 15px;
+        height: 14px;
+        display: inline-block;
+        background: url("../img/login-y-icon.png");
+        position: absolute;
+        top: 4px;
+        left: 0;
+    }
+    .register-box>p:nth-child(6) em {
+        color: #656565;
+        margin-left: 20px;
+    }
+    .register-box>p:nth-child(6) em ins {
+        color: #000;
+    }
+    .register-box>p:nth-child(6) b {
+        color: #A8A8A8;
+        margin-left: 130px;
+    }
+    .register-box>p:nth-child(6) a {
+        color: #FD1E1E;
+    }
+    .register-box input:last-child {
+        color: #fff;
+        font-size: 18px;
+        font-family: "microsoft";
+        text-align: center;
+        background-color: #F19F03;
+        margin-top: 0;
+    }
+    /*--------------------注册部分       end*/
+
+    /*--------------------开服表部分       开始*/
+    .open-table {
+        height: 477px;
+        margin-top: 18px;
+        background-color: #fff;
+    }
+    .open-table p {
+        width: 791px;
+        height: 67px;
+        padding-left: 409px;
+        overflow: hidden;
+    }
+    .open-table p em {
+        width: 78px;
+        height: 25px;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        font-family: "microsoft";
+        color: #000;
+        float: left;
+        margin: 28px 32px;
+    }
+    .open-table p i {
+        width: 120px;
+        height: 1px;
+        float: left;
+        display: inline-block;
+        background-color: #000;
+        margin: 38px 0;
+    }
+    .open-table>ul {
+        width: 1180px;
+        height: 376px;
+        margin: 0 auto;
+    }
+    .open-table>ul ul {
+        width: 1180px;
+        height: 56px;
+        border-top: 1px solid #EDEDED;
+    }
+    .open-table>ul ul li {
+        height: 23px;
+        line-height: 23px;
+        text-align: center;
+        float: left;
+        font-size: 16px;
+        font-family: "microsoft";
+        color: #000;
+        margin-top: 20px;
+    }
+    .open-table>ul ul li:first-child {
+        margin-left: 58px;
+        margin-right: 144px;
+    }
+    .open-table>ul ul li:nth-child(3) {
+        margin-left: 134px;
+        margin-right: 98px;
+    }
+    .open-table>ul ul li:nth-child(5) {
+        margin-left: 105px;
+        margin-right: 112px;
+    }
+    .open-table>ul ul li:last-child {
+        margin-left: 112px;
+        margin-right: 56px;
+    }
+    .open-table>ul>li {
+        height: 63px;
+        font-family: "microsoft";
+        border-bottom: 1px solid #A3CD29;
+    }
+    .open-table>ul>li em:first-child {
+        width: 80px;
+        height: 21px;
+        display: inline-block;
+        line-height: 21px;
+        font-size: 14px;
+        color: #656565;
+        float: left;
+        margin: 21px 87px 21px 45px;
+    }
+    .open-table>ul>li i:nth-child(2) {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        background: url("../img/open-table-icon01.png");
+        margin: 13px 18px 13px 0;
+    }
+    .open-table>ul>li:nth-child(3) i:nth-child(2) {
+        background: url("../img/open-table-icon02.png");
+    }
+    .open-table>ul>li:nth-child(4) i:nth-child(2) {
+        background: url("../img/open-table-icon03.png");
+    }
+    .open-table>ul>li:nth-child(5) i:nth-child(2) {
+        background: url("../img/open-table-icon04.png");
+    }
+    .open-table>ul>li:nth-child(6) i:nth-child(2) {
+        background: url("../img/open-table-icon05.png");
+    }
+
+    .open-table>ul>li b:nth-child(3) {
+        width: 86px;
+        height: 23px;
+        display: inline-block;
+        font-size: 16px;
+        color: #333333;
+        position: relative;
+        bottom: 25px;
+        left: 0;
+    }
+    .open-table>ul>li i:nth-child(4) {
+        width: 17px;
+        height: 21px;
+        display: inline-block;
+        background: url("../img/open-table-android-icon.png");
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .open-table>ul>li i:nth-child(5) {
+        width: 17px;
+        height: 21px;
+        display: inline-block;
+        background: url("../img/open-table-apple-icon.png");
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .open-table>ul>li em:nth-child(6) {
+        width: 62px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        position: relative;
+        bottom: 23px;
+        left: 84px;
+    }
+    .open-table>ul>li:nth-child(4) em:nth-child(6) {
+        width: 62px;
+        position: relative;
+        bottom: 23px;
+        left: 92px;
+    }
+    .open-table>ul>li:nth-child(5) em:nth-child(6) {
+        width: 106px;
+        position: relative;
+        bottom: 23px;
+        left: 60px;
+    }
+    .open-table>ul>li em:nth-child(7) {
+        width: 62px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        position: relative;
+        bottom: 23px;
+        left: 170px;
+    }
+    .open-table>ul>li:nth-child(5) em:nth-child(7) {
+        left: 126px;
+    }
+    .open-table>ul>li a:nth-child(8),.open-table>ul>li a:nth-child(9) {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        color: #0185FF;
+        border: 1px solid #0185FF;
+        border-radius: 5px;
+        position: relative;
+        bottom: 23px;
+        left: 256px;
+    }
+    .open-table>ul>li a:nth-child(8):hover,.open-table>ul>li a:nth-child(9):hover {
+        color: #fff;
+        background-color: #0185FF;
+    }
+    .open-table>ul>li:nth-child(5) a:nth-child(8) {
+        left: 212px;
+    }
+    .open-table>ul>li a:nth-child(9) {
+        color: #F19619;
+        border: 1px solid #F19619;
+        position: relative;
+        bottom: 23px;
+        left: 348px;
+    }
+    .open-table>ul>li a:nth-child(9):hover {
+        background-color: #F19619;
+    }
+    .open-table>ul>li:nth-child(5) a:nth-child(9) {
+        left: 304px;
+    }
+    /*--------------------开服表部分       end*/
+
+    /*--------------------充值部分       开始*/
+    .recharge {
+        height: 600px;
+    }
+    .recharge-box {
+        width: 1200px;
+        height: 550px;
+        background-color: #fff;
+    }
+    .recharge-box .recharge-box-l {
+        width: 816px;
+        height: 550px;
+        border-right: 1px solid #E5E5E5;
+    }
+    .recharge-box-l .xiaobox {
+        width: 687px;
+        height: 115px;
+        margin: 40px 65px 74px;
+    }
+    .xiaobox span:first-child {
+        width: 293px;
+        height: 23px;
+        line-height: 23px;
+        display: block;
+        font-size: 16px;
+        color: #333;
+        font-family: "microsoft";
+        margin-bottom: 46px;
+    }
+    .xiaobox span:first-child button {
+        height: 23px;
+        line-height: 21px;
+        font-size: 14px;
+        color: #000;
+    }
+    .xiaobox div {
+        width: 689px;
+        height: 89px;
+        font-size: 16px;
+        color: #333;
+        font-family: "microsoft";
+    }
+    .xiaobox div span {
+        width: 80px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        background: url("../img/recharge-bg-w.png");
+    }
+    .xiaobox div span:nth-child(8) {
+        margin-left: 84px;
+    }
+    .xiaobox div .on {
+        background: url("../img/recharge-bg-o.png");
+    }
+    .xiaobox p:nth-child(2) {
+        background: url("../img/recharge-bg-o.png");
+    }
+    .recharge-box-l p:nth-child(2) {
+        width: 500px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        color: #333333;
+        font-family: "microsoft";
+        margin-left: 63px;
+        position: relative;
+    }
+    .recharge-box-l p:nth-child(2) em {
+        width: 74px;
+        height: 23px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .recharge-box-l p:nth-child(2) b {
+        width: 225px;
+        height: 23px;
+        display: inline-block;
+        color: #656565;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .recharge-box-l p:nth-child(2) span {
+        width: 180px;
+        height: 36px;
+        display: inline-block;
+        border: 1px solid #EEEEEE;
+        margin-left: 10px;
+        position: relative;
+        top: 0;
+        left: 76px;
+    }
+    .recharge-box-l p:nth-child(2) span i {
+        width: 10px;
+        height: 14px;
+        display: inline-block;
+        background: url("../img/recharge-money-icon.png");
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .recharge-box-l p:nth-child(2) span input {
+        width: 146px;
+        height: 36px;
+        display: inline-block;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .recharge-box-l p:nth-child(3) {
+        width: 305px;
+        height: 36px;
+        margin-top: 32px;
+        margin-left: 63px;
+        position: relative;
+    }
+    .recharge-box-l p:nth-child(3) em {
+        width: 86px;
+        height: 23px;
+        font-size: 16px;
+        color: #333333;
+        font-family: "microsoft";
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .recharge-box-l p:nth-child(3) i {
+        width: 100px;
+        height: 36px;
+        display: inline-block;
+        background: url("../img/recharge-zhifubao-icon-n.png");
+        position: absolute;
+        top: 0;
+        left: 86px;
+    }
+    .recharge-box-l p:nth-child(3) i.onzhifubao {
+        background: url("../img/recharge-zhifubao-icon-y.png");
+    }
+    .recharge-box-l p:nth-child(3) b {
+        width: 100px;
+        height: 36px;
+        display: inline-block;
+        background: url("../img/recharge-weixin-icon-n.png");
+        position: absolute;
+        top: 0;
+        left: 205px;
+    }
+    .recharge-box-l p:nth-child(3) b.onweixin {
+        background: url("../img/recharge-weixin-icon-y.png");
+    }
+    .recharge-box-l>span:nth-child(4) {
+        width: 199px;
+        height: 29px;
+        line-height: 29px;
+        display: inline-block;
+        font-size: 16px;
+        color: #333333;
+        font-family: "microsoft";
+        margin: 43px 0 0 63px;
+    }
+    .recharge-box-l>span:nth-child(4) em {
+        font-size: 22px;
+        color: #F49F00;
+    }
+    .recharge-box-l>input:last-child {
+        width: 110px;
+        height: 36px;
+        line-height: 36px;
+        display: block;
+        font-family: "microsoft";
+        font-size: 16px;
+        color: #fff;
+        background-color: #FD950B;
+        border-radius: 5px;
+        margin: 37px 0 0 366px;
+    }
+    .recharge-box .recharge-box-r {
+        width: 383px;
+        height: 550px;
+    }
+    .recharge-box-r>p:first-child {
+        width: 320px;
+        height: 47px;
+        background-color: #fff;
+        margin: 0 auto;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .recharge-box-r>p:first-child span {
+        width: 80px;
+        height: 47px;
+        display: inline-block;
+        line-height: 47px;
+        font-size: 18px;
+        color: #656565;
+        font-family: "microsoft";
+    }
+    .recharge-box-r>p:first-child span:hover {
+        border-bottom: 1px solid #FCAE1D;
+    }
+    .recharge-box-r>h3:nth-child(2),.recharge-box-r>h3:nth-child(4) {
+        width: 311px;
+        height: 23px;
+        line-height: 23px;
+        font-size: 16px;
+        color: #333333;
+        border-bottom: 1px dashed #fff;
+        font-family: "microsoft";
+        margin: 13px 0 0 40px;
+    }
+    .recharge-box-r>ul:nth-child(3) {
+        width: 312px;
+        height: 159px;
+        line-height: 23px;
+        font-size: 12px;
+        color: #333333;
+        font-family: "microsoft";
+        margin: 10px 0 0 40px;
+    }
+    .recharge-box-r>h3:nth-child(4) {
+        margin-top: 50px;
+    }
+    .recharge-box-r>p:nth-child(5) {
+        width: 298px;
+        height: 39px;
+        line-height: 19px;
+        margin: 13px 0 60px 40px;
+        font-size: 12px;
+        color: #333333;
+        font-family: "microsoft";
+    }
+    .recharge-box-r>p:last-child {
+        width: 320px;
+        height: 60px;
+        margin-left: 31px;
+        font-size: 18px;
+        background-color: #FD950B;
+    }
+    .recharge-box-r>p:last-child span {
+        width: 174px;
+        height: 36px;
+        display: inline-block;
+        margin: 14px 0 0 76px;
+        position: relative;
+    }
+    .recharge-box-r>p:last-child span i {
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+        margin-right: 23px;
+        background: url("../img/recharge-custom-icon.png");
+    }
+    .recharge-box-r>p:last-child span a {
+        width: 115px;
+        height: 25px;
+        display: inline-block;
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    /*--------------------充值部分       end*/
+
+/*------------------------------------------客服部分       开始*/
+    .customservice {
+        height: 1170px;
+    }
+    /*-------------------banner部分     开始*/
+    .customservice .custom-banner {
+        width: 1200px;
+        height: 296px;
+        background: url("../img/customservice-banner.png");
+        margin-top: 20px;
+    }
+    .custom-banner span {
+        width: 473px;
+        height: 93px;
+        display: inline-block;
+        margin: 92px 0 0 92px;
+    }
+    .custom-banner span em {
+        width: 125px;
+        height: 29px;
+        line-height: 29px;
+        display: inline-block;
+        font-size: 21px;
+        color: #fff;
+        font-family: "microsoft";
+        margin-left: 20px;
+    }
+    .custom-banner span b {
+        width: 59px;
+        height: 2px;
+        display: inline-block;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .custom-banner span b:first-child {
+        margin-left: 20px;
+    }
+    .custom-banner span i {
+        width: 471px;
+        height: 55px;
+        display: inline-block;
+        background: url("../img/customservice-biaoyu.png");
+        margin-top: 10px;
+    }
+    /*-------------------banner部分     end*/
+
+    /*-------------------栏目部分        开始*/
+    .customservice .custom-column {
+        width: 1200px;
+        height: 284px;
+        background-color: #fff;
+        margin-top: 13px;
+        overflow: hidden;
+    }
+    .custom-column  .colum-l,.custom-column  .colum-m,.custom-column  .colum-r{
+        width: 380px;
+        height: 225px;
+        border: 1px solid #EDEDED;
+        margin-top: 15px;
+        float: left;
+    }
+    .custom-column  .colum-l {
+        margin-left: 10px;
+        margin-right: 17px;
+    }
+    .custom-column  .colum-r {
+        margin-left: 17px;
+        margin-right: 10px;
+    }
+    .colum-l span,.colum-m span,.colum-r span {
+        width: 145px;
+        height: 170px;
+        display: block;
+        background: url("../img/customservice-weixin-icon.png") no-repeat;
+        margin: 34px 0 0 119px;
+        overflow: hidden;
+    }
+    .colum-m span {
+        background: url("../img/customservice-qq-icon.png") no-repeat;
+    }
+    .colum-r span {
+        background: url("../img/customservice-phone-icon.png") no-repeat;
+    }
+    .colum-l span a,.colum-m span a,.colum-r span a {
+        width: 126px;
+        height: 25px;
+        display: inline-block;
+        font-size: 18px;
+        color: #656565;
+        font-family: "microsoft";
+        margin-top: 150px;
+        text-align: center;
+    }
+    /*.custom-column  .colum-l.on {*/
+        /*width: 380px;*/
+        /*height: 259px;*/
+        /*z-index: 10;*/
+        /*background: url("../img/customservice-weixin-hover.png");*/
+        /*z-index: 1;*/
+    /*}*/
+    /*-------------------栏目部分        end*/
+
+    /*-----------------常见问题部分        开始*/
+    .familiar-question {
+        width: 1200px;
+        height: 396px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+    .familiar-question>p {
+        width: 1180px;
+        height: 39px;
+        margin: 0 auto;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .familiar-question>p span {
+        width: 80px;
+        line-height: 39px;
+        display: inline-block;
+        font-size: 18px;
+        color: #000;
+        font-family: "microsoft";
+    }
+    .familiar-question>p span:hover {
+        border-bottom: 1px solid #FFA919;
+    }
+    .familiar-question>ul {
+        width: 1182px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .familiar-question>ul li {
+        width: 1180px;
+        height: 50px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: "microsoft";
+        border-bottom: 1px solid #EDEDED;
+        position: relative;
+    }
+    .familiar-question>ul li:first-child {
+        border-bottom: none;
+    }
+
+    .familiar-question>ul li i {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background: url("../img/customservice-ask-icon.png");
+        margin: 15px 20px 0 10px;
+    }
+    .familiar-question>ul li a {
+        color: #333333;
+        position: absolute;
+        top: 17px;
+        left: 40px;
+    }
+    .familiar-question>ul li:nth-child(2) {
+        width: 1171px;
+        height: 60px;
+        line-height: 23px;
+        font-size: 14px;
+        position: relative;
+    }
+    .familiar-question>ul li:nth-child(2) i {
+        margin-left: 4px;
+        margin-top: 4px;
+        background: url("../img/customservice-answer-icon.png");
+    }
+    .familiar-question>ul li:nth-child(2) a {
+        color: #656565;
+        position: absolute;
+        top: 0;
+        left: 35px;
+    }
+    /*-----------------常见问题部分        end*/
+
+    /*-----------------用户帮助和热点问题部分      开始*/
+    .userhelp {
+        height: 138px;
+        background-color: #fff;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .userhelp .alltop {
+        width: 1036px;
+        height: 26px;
+        margin: 19px auto 43px;
+        font-family: "microsoft";
+        color: #656565;
+    }
+    .userhelp .alltop h2 {
+        width: 68px;
+        height: 23px;
+        line-height: 23px;
+        margin-right: 32px;
+        font-size: 16px;
+        float: left;
+    }
+    .userhelp .alltop h2:nth-child(6) {
+        margin-left: 55px;
+    }
+    .userhelp .alltop span:nth-child(2),.userhelp .alltop span:nth-child(3),
+    .userhelp .alltop span:nth-child(4),.userhelp .alltop span:nth-child(5){
+        width: 80px;
+        height: 26px;
+        display: inline-block;
+        line-height: 26px;
+        text-align: center;
+        border-radius: 20px;
+        margin-right: 21px;
+        border: 1px solid #BFBFBF;
+        font-size: 14px;
+        float: left;
+    }
+    .userhelp .alltop span a {
+        color: #656565;
+    }
+    .userhelp .alltop span:nth-child(7),.userhelp .alltop span:nth-child(8),
+    .userhelp .alltop span:nth-child(9){
+        width: 106px;
+        height: 23px;
+        display: inline-block;
+        position: relative;
+    }
+    .userhelp .alltop span:nth-child(8) {
+        margin-left: 21px;
+        margin-right: 22px;
+    }
+    .userhelp .alltop span:nth-child(7) i,.userhelp .alltop span:nth-child(8) i,
+    .userhelp .alltop span:nth-child(9) i {
+        width: 4px;
+        height: 4px;
+        display: inline-block;
+        background-color: #656565;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: -5px;
+    }
+    .userhelp .alltop span:nth-child(7) a,.userhelp .alltop span:nth-child(8) a,
+    .userhelp .alltop span:nth-child(9) a {
+        width: 96px;
+        height: 23px;
+        line-height: 23px;
+        display: inline-block;
+        font-family: "microsoft";
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .userhelp .alltop p:last-child {
+        width: 497px;
+        height: 21px;
+        line-height: 21px;
+        font-family: "microsoft";
+         font-size: 14px;
+         color: #999;
+         margin: 43px 0 0 343px;
+    }
+    .userhelp .alltop p:last-child em {
+        color: #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

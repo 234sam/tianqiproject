@@ -1,0 +1,95 @@
+/*header.css*/
+
+/*----------------------------头部header 开始*/
+    .header-bg {
+        height: 40px;
+        background-color: #F7F7F7;
+    }
+    .header {
+        height: 40px;
+    }
+    .t-l li {
+        float: left;
+        line-height: 40px;
+        color: #999999;
+        padding-right: 10px;
+    }
+    .t-r .login {
+        width: 132px;
+        height: 40px;
+        border-right: 1px solid #E5E5E5;
+    }
+    .t-r .login li {
+        float: left;
+        line-height: 40px;
+        color: #999999;
+        padding-right: 10px;
+    }
+    .t-r {
+        width: 320px;
+    }
+    .t-r .public-sign {
+        width: 176px;
+        float: right;
+    }
+    .t-r .public-sign li {
+        float: left;
+        line-height: 40px;
+        color: #666666;
+    }
+    .wx-login{
+        width: 75px;
+        background: url("../img/wxlogo.png") no-repeat left center;
+        padding-left: 25px;
+        margin-right: 10px;
+        border-right: 1px solid #E5E5E5;
+    }
+    .wx-login-qq {
+        padding-left: 25px;
+        background: url("../img/qq.png") no-repeat left center;
+    }
+/*------------------------头部header  end*/
+
+/*------------------------------大背景颜色*/
+    .bg-color {
+        height: 100%;
+        background-color: #E9F6FD;
+    }
+
+/*---------------------顶部导航栏  开始*/
+    .topbox {
+        height: 100px;
+        padding-top: 5px;
+        /*background-color: blue;*/
+    }
+    .topbox-l img {
+        width: 200px;
+        height: 83px;
+    }
+    .topbox-r {
+        height: 100px;
+        width: 640px;
+        /*background-color: #666;*/
+    }
+    .topbox-r .topbox-r-li li{
+        float: left;
+        /*width: 36px;*/
+        height: 23px;
+        line-height: 23px;
+        margin-top: 40px;
+        margin-left: 53px;
+    }
+    .topbox-r .topbox-r-li li:hover {
+        border-bottom: 2px solid #FDA500;
+    }
+    .topbox-r .topbox-r-li li a {
+        color: #444444;
+    }
+    .topbox-r .topbox-r-li  img {
+        position: relative;
+        width: 10px;
+        height: 6px;
+        top: 36px;
+        left: -420px;
+    }
+/*----------------------顶部导航栏  end*/

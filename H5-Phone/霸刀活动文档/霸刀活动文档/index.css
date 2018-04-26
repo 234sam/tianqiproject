@@ -1,0 +1,99 @@
+/*index.css*/
+
+    @media screen and (min-width:1200px){
+        .container {
+            width: 100%;
+            background-color: #ddefef;
+        }
+
+        .container .logo img{
+            width: 30%;
+            height: 30%;
+            display: inline-block;
+            margin-left: 40px;
+        }
+        .container .activity1 img,.container .activity2 img,
+        .container .activity3 img{
+            display: block;
+            margin: 0 auto;
+        }
+        .container .activity1,.container .activity2,
+        .container .activity3,.container .attention {
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (max-width:750px){
+        .container {
+            width: 90%;
+            padding: 0 15px;
+            overflow:hidden;
+            background-color: #ddefef;
+        }
+        .container .logo img{
+            width: 100%;
+            height: 200px;
+            display: inline-block;
+            margin: 0 auto;
+        }
+        .container .activity1,.container .activity2,
+        .container .activity3,.container .attention {
+            width: 100%;
+        }
+        .container .activity1 img,.container .activity2 img,
+        .container .activity3 img{
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+    }
+    .container .logo {
+        width: 100%;
+    }
+    .container>p:nth-child(2){
+        color: red;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+    /*.container .logo img{*/
+        /*width: 40%;*/
+        /*height: 200px;*/
+        /*display: inline-block;*/
+        /*margin: 0 auto;*/
+    /*}*/
+    /*.container .activity1,.container .activity2,*/
+    /*.container .activity3,.container .attention {*/
+        /*width: 1200px;*/
+        /*margin: 0 auto;*/
+    /*}*/
+    .container .activity1 b,.container .activity2 b,
+    .container .activity3 b {
+        width: 100%;
+        color: red;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+    /*.container .activity1 img,.container .activity2 img,*/
+    /*.container .activity3 img{*/
+        /*width: 90%;*/
+        /*display: block;*/
+        /*margin: 0 auto;*/
+    /*}*/
+    .container .activity1 p b {
+        font-weight: normal;
+    }
+    .attention >p b {
+        color: red;
+        font-size: 18px;
+    }
+
+    
+
+
+
+
+
+

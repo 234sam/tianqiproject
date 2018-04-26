@@ -1,0 +1,530 @@
+/*information-message.css*/
+
+    .header .t-r {
+        width: 360px;
+    }
+    .information-message .h-theme {
+        margin-top: -10px;
+    }
+/*----------------------大盒子     开始*/
+    .information-message {
+        height: 2430px;
+    }
+    .information-message .information-r {
+        height: 2352px;
+    }
+
+/*--------------------左边大盒子    开始*/
+    .information-message-l {
+        width: 836px;
+        height: 100%;
+    }
+    /*--------------------路径部分    开始*/
+    .route {
+        width: 836px;
+        height: 255px;
+    }
+    .route .ul1 {
+        width: 300px;
+        height: 28px;
+        padding-top: 12px;
+    }
+    .route .ul1 li {
+        height: 19px;
+        line-height: 19px;
+        float: left;
+        font-size: 12px;
+        font-family: "microsoft";
+    }
+    .route .ul1 li a {
+        color: #000;
+    }
+    .route-f {
+        width: 836px;
+        height: 178px;
+        background-color: #fff;
+        position: relative;
+    }
+    .route-f span:first-child a {
+        width: 123px;
+        height: 123px;
+        display: inline-block;
+        float: left;
+        margin: 32px 24px 23px 20px;
+        background: url("../img/game_logo.png");
+    }
+    .route-f .ul2 {
+        width: 432px;
+        height: 123px;
+        margin-top: 32px;
+    }
+    .route-f .ul2 li:first-child a {
+        width: 102px;
+        height: 25px;
+        line-height: 25px;
+        display: inline-block;
+        color: #333333;
+        font-size: 18px;
+        font-family: "microsoft";
+        margin-top: 37px;
+    }
+    .route-f .ul2 li:nth-child(2) {
+        width: 580px;
+        height: 21px;
+        color: #656565;
+        font-size: 14px;
+        font-family: "microsoft";
+        margin-top: 20px;
+    }
+    .route-f .ul2 li:nth-child(2) b{
+            width: 130px;
+            height: 21px;
+            display: inline-block;
+            margin: 0 50px 0 51px;
+        }
+    .route-f .ul2 li:nth-child(3) {
+            width: 584px;
+            height: 32px;
+            font-size: 12px;
+            font-family: "microsoft";
+            color: #656565;
+            margin-top: 15px;
+    }
+    .route-f .ul2 li:nth-child(3) em{
+            width: 108px;
+            height: 19px;
+            display: inline-block;
+            font-size: 12px;
+            font-family: "microsoft";
+            color: #656565;
+    }
+
+    .route-f .ul2 li:nth-child(3) span {
+            width: 120px;
+            height: 32px;
+            display: inline-block;
+            color: #fff;
+            background-color: #74CB00;
+            border-radius: 5px;
+            margin-left: 27px;
+            position: relative;
+    }
+    .route-f .ul2 li:nth-child(3) span b {
+            width: 17px;
+            height: 21px;
+            display: inline-block;
+            background: url("../img/apple-icon.png");
+            position: absolute;
+            top: 5px;
+            left: 18px;
+    }
+    .route-f .ul2 li:nth-child(3) span:nth-child(2) b {
+            background: url("../img/android-icon.png");
+    }
+    .route-f .ul2 li:nth-child(3) span i {
+            width: 65px;
+            height: 21px;
+            display: inline-block;
+            font-size: 14px;
+            color: #fff;
+            font-family: "microsoft";
+            margin: 10px 0 0 43px;
+    }
+    .route-f .ul2 li:nth-child(3) span:hover {
+            background-color: #FD950B;
+    }
+    .route-f p {
+            width: 115px;
+            height: 135px;
+            float: right;
+            background: url("../img/route-erweima.png") no-repeat ;
+            position: absolute;
+            top: 32px;
+            right: 20px;
+    }
+    .route-f p i {
+            width: 112px;
+            height: 17px;
+            display: block;
+            font-size: 12px;
+            font-family: "microsoft";
+            color: #D6D6D6;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+    }
+    /*--------------------路径部分    end*/
+
+    /*--------------------英雄介绍        开始*/
+    .herosuggest {
+        width: 836px;
+        height: 1137px;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    .herosuggest-t {
+        width: 836px;
+        height: 120px;
+        border-bottom: 1px solid #EDEDED;
+        position: relative;
+    }
+    .herosuggest-t h2 {
+        width: 460px;
+        height: 25px;
+        color: #333333;
+        font-size: 18px;
+        font-family: "microsoft";
+        padding-top: 45px;
+        margin: 0 auto;
+    }
+    .herosuggest-t span {
+        width: 340px;
+        height: 21px;
+        color: #656565;
+        font-size: 14px;
+        font-family: "microsoft";
+        position: absolute;
+        top: 85px;
+        left: 248px;
+    }
+    .herosuggest-m {
+        width: 836px;
+        height: 957px;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .herosuggest-m p:first-child {
+        width: 729px;
+        height: 70px;
+        line-height: 25px;
+        font-size: 14px;
+        color: #656565;
+        font-family: "microsoft";
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    .herosuggest-m i {
+        width: 500px;
+        height: 278px;
+        display: block;
+        margin: 40px 0 0 144px;
+        background: url("../img/herosuggest01.png") no-repeat;
+    }
+    .herosuggest-m h3 {
+        width: 253px;
+        height: 23px;
+        font-size: 16px;
+        font-family: "microsoft";
+        color: #434343;
+        margin: 30px 0 0 84px;
+    }
+    .herosuggest-m .p2 {
+        width: 725px;
+        height: 74px;
+        line-height: 25px;
+        font-size: 14px;
+        color: #656565;
+        font-family: "microsoft";
+        margin: 0 auto;
+    }
+    .herosuggest-m b {
+        width: 500px;
+        height: 253px;
+        display: block;
+        margin: 20px 0 0 144px;
+        background: url("../img/herosuggest02.png") no-repeat;
+    }
+    .herosuggest-m p:last-child {
+        width: 722px;
+        height: 70px;
+        line-height: 25px;
+        font-size: 14px;
+        color: #656565;
+        font-family: "microsoft";
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    .herosuggest-f {
+        width: 836px;
+        height: 60px;
+    }
+    .herosuggest-f ul {
+        width: 241px;
+        height: 34px;
+        float: right;
+        margin: 12px 48px 12px 0;
+    }
+    .herosuggest-f ul li {
+        float: left;
+    }
+    .herosuggest-f ul li:first-child i {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin: 7px 7px 7px 0;
+        background: url("../img/share-icon.png");
+    }
+    .herosuggest-f ul li:nth-child(2) b {
+        width: 46px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        color: #999999;
+        font-family: "microsoft";
+        margin-top: 10px;
+    }
+    .herosuggest-f ul li:nth-child(3) i {
+        width: 29px;
+        height: 23px;
+        display: inline-block;
+        background: url("../img/share-wx.png");
+        margin: 7px;
+    }
+    .herosuggest-f ul li:nth-child(4) i {
+        width: 23px;
+        height: 23px;
+        display: inline-block;
+        background: url("../img/share-friend.png");
+        margin: 7px;
+    }
+    .herosuggest-f ul li:nth-child(5) i {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background: url("../img/share-qq.png");
+        margin: 7px;
+    }
+    .herosuggest-f ul li:nth-child(6) i {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background: url("../img/share-room.png");
+        margin: 7px;
+    }
+    /*--------------------英雄介绍        end*/
+
+    /*--------------------游戏栏目       开始*/
+    .essay-column {
+        width: 836px;
+        height: 71px;
+        margin: 10px 0;
+        background-color: #fff;
+    }
+    .essay-column a {
+        width: 404px;
+        height: 21px;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #656565;
+        margin: 26px 0 27px 20px;
+    }
+    .essay-column span {
+        width: 110px;
+        height: 21px;
+        display: inline-block;
+        float: right;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #656565;
+        margin: 26px 240px 27px 0;
+    }
+    /*--------------------游戏栏目       end*/
+
+    /*--------------------发表评论       开始*/
+    .comment-all {
+        width: 837px;
+        height: 435px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+    .comment-all p:first-child {
+        width: 181px;
+        height: 25px;
+        margin: 0 0 0 17px;
+        padding-top: 10px;
+        font-family: "microsoft";
+        color: #333333;
+    }
+    .comment-all p:first-child span{
+        width: 76px;
+        height: 19px;
+        font-size: 18px;
+    }
+    .comment-all p:first-child b {
+        width: 99px;
+        height: 19px;
+        line-height: 19px;
+        font-size: 12px;
+        color: #7A7A7A;
+    }
+    .comment-all p:first-child em {
+        color: #FF0000;
+    }
+    .comment-all h2 {
+        width: 82px;
+        height: 25px;
+        font-size: 18px;
+        font-weight: normal;
+        font-family: "microsoft";
+        color: #434343;
+        margin-left: 25px;
+    }
+    .comment-all > span {
+        width: 110px;
+        height: 21px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #999999;
+        margin: 20px 363px;
+    }
+
+    .comment-all .zuixing {
+        width: 785px;
+        height: 128px;
+        background-color: #fff;
+        margin-left: 25px;
+        position: relative;
+        border-top: 1px dashed #F0F0F0;
+        border-bottom: 1px dashed #F0F0F0;
+    }
+    .zuixing > a i {
+        width: 62px;
+        height: 63px;
+        display: inline-block;
+        float: left;
+        margin: 17px 23px 0 10px;
+        background: url("../img/cap-icon.png");
+    }
+    .zuixing p {
+        width: 652px;
+        height: 15px;
+        float: left;
+        font-family: "microsoft";
+        margin-top: 25px;
+    }
+    .zuixing p span {
+        font-size: 14px;
+        color: #333333;
+    }
+    .zuixing p i {
+        font-size: 12px;
+        color: #B8B8B8;
+    }
+    .zuixing p b {
+        font-size: 12px;
+        color: #999999;
+        margin-left: 371px;
+    }
+    .zuixing ul {
+        width: 122px;
+        height: 31px;
+        position: absolute;
+        bottom: -17px;
+        right: 0px;
+    }
+    .zuixing ul li b {
+        width: 47px;
+        height: 17px;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #656565;
+        border-right: 1px solid #656565;
+    }
+    .zuixing ul li i {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        background: url("../img/dianzan-icon.png");
+        position: absolute;
+        bottom: 13px;
+        right: 0;
+        
+    }
+
+        /*-----------QQ标签*/
+    .comment {
+    width: 735px;
+    height: 177px;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    }
+    .comment h3 { height: 28px; line-height: 28px }
+    .com_form { width: 100%; position: relative }
+    .input {
+        width: 788px;
+        height: 103px;
+        border: 1px solid #EDEDED;
+        position: absolute;
+        top: 7px;
+        left: -34px;
+    }
+    .com_form p {
+        width: 760px;
+        height: 28px;
+        line-height: 28px;
+        margin-top: 10px;
+        position: absolute;
+        top: 120px;
+        left: -27px;
+    }
+    span.emotion {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        padding-left: 20px;
+        cursor: pointer;
+        background: url("../img/emotion-icon.png") no-repeat;
+    }
+    b.emotion-img {
+        width: 29px;
+        height: 23px;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 3px;
+        background: url("../img/insert-img-icon.png") no-repeat;
+    }
+
+    .qqFace {
+        margin-top: 4px;
+        background: #fff;
+        padding: 2px;
+        border: 1px #dfe6f6 solid;
+    }
+    .qqFace table td {
+        padding: 0px;
+    }
+    .qqFace table td img {
+        cursor: pointer; border: 1px #fff solid;
+    }
+    .qqFace table td img:hover {
+        border: 1px #0066cc solid;
+    }
+    #show {
+        width: 640px;
+        height: 50px;
+        background: #fff;
+        float: left;
+        vertical-align: top;
+    }
+    .sub_btn {
+        width: 90px;
+        height: 36px;
+        position: absolute;
+        right: -37px;
+        top: 0;
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: baseline;
+        margin: 0 2px;
+        cursor: pointer;
+        text-align: center;
+        font: 16px/100% microsoft;
+        padding: .5em 2em .55em;
+        background-color: #FD950B;
+    }
+    /*--------------------发表评论       end*/
+

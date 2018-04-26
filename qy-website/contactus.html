@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=oWYNBTGUenSbreFj0jjC4eCB1reWrGVM&s=1"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/aboutus.css"/>
+    <link rel="stylesheet" href="css/business.css"/>
+    <script type="text/javascript" src="jq/jquery.min.js"></script>
+</head>
+<body scroll="no">
+
+<!--导航栏         开始-
+<div class="qy_nav sec1920">
+    <div class="qy_nav1 ec1200 ">
+        <a href="">、54/
+            <img src="img/logo.png" alt=""/>
+-       </a>
+        <ul>
+            <li><a href="index.html">首页<br><span>Home</span></a></li>
+            <li><a href="aboutus.html">关于我们<br><span>About us</span></a></li>
+            <li><a href="news-information.html">新闻资讯<br><span>News </span></a></li>
+            <li><a href="product-serve.html">产品服务<br><span>products</span></a></li>
+            <li><a href="recruitment.html">人才招聘<br><span>careesr</span></a></li>
+            <li><a href="business.html">商务合作<br><span>cooperation</span></a></li>
+            <li><a href="contactus.html" class="activate">联系我们<br><span>contact us</span></a></li>
+        </ul>
+    </div>
+</div>
+<!--导航栏         end-->
+
+<p><span></span></p>
+<!--广告图片         开始-->
+<div class="aboutus-adv">
+    <a href=""><img src="img/bussiness-banner.png" alt=""/></a>
+</div>
+<!--广告图片         end-->
+
+<!--联系我们         开始-->
+<div class="aboutus contactus sec1920">
+    <div class="sec1200">
+        <div class="aboutus-t product-serve-t">
+            <h3>联系我们<br><span>CONTACT US</span></h3>
+            <span><em></em></span>
+            <span><em></em></span>
+        </div>
+        <div class="contactus-f">
+            <ul>
+                <li><i></i><h3>公司地址</h3><p> 广州市天河区中山大道珠村<br>东英办公楼4楼</p></li>
+                <li><i></i><h3>联系方式</h3><p>联系电话：020-28192392<br>传真：020-28192392</p></li>
+                <li><i></i><h3>天启邮箱</h3><p>tianqihuyu@163.com</p></li>
+                <li><i></i><h3>联系QQ</h3><p>客服小莉：384561313</p></li>
+            </ul>
+            <div class="map" id="container">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--联系我们         end-->
+
+<!--商务合作         end-->
+<script type="text/javascript">
+//    /*
+//     创建地图实例
+//     * 位于BMap命名空间下的Map类表示地图，通过new操作符可以创建一个地图实例。
+//     * 其参数可以是元素id也可以是元素对象。
+//     * 注意在调用此构造函数时应确保容器元素已经添加到地图上。*/
+    var map = new BMap.Map("container");
+
+//    /*
+//     创建点坐标
+//     * 这里我们使用BMap命名空间下的Point类来创建一个坐标点。
+//     * Point类描述了一个地理坐标点，其中116.404表示经度，39.915表示纬度。*/
+    var point = new BMap.Point(113.43045,23.120043);
+//    /*
+//     地图初始化
+//     * 在创建地图实例后，我们需要对其进行初始化，BMap.Map.centerAndZoom()方法要求设置中心点坐标和地图级别。
+//     * 地图必须经过初始化才可以执行其他操作。*/
+    map.centerAndZoom(point, 15);
+//
+//    /*
+//     下面示例显示一个地图，等待两秒钟后，它会移动到新中心点。
+//     * panTo()
+//     *      将让地图平滑移动至新中心点，如果移动距离超过了当前地图区域大小，则地图会直跳到该点。
+//     * zoomTo()
+//     *
+//     * setCenter()
+//     *
+//     * */
+    window.setTimeout(function(){
+        map.panTo(new BMap.Point(113.43045, 23.120043));
+    }, 1000);
+
+    var marker = new BMap.Marker(point);        // 创建标注
+    map.addOverlay(marker);                     // 将标注添加到地图中
+
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow, map.getCenter());
+    });
+
+var opts = {
+        width : 285,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+        title : "广东天启互动娱乐有限公司"  // 信息窗口标题
+    }
+    var infoWindow = new BMap.InfoWindow("<p>电话：020-28192392</p><p>地址：天河区中山大道珠村东英办公楼4楼</p>", opts);  // 创建信息窗口对象
+    map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+//
+//    //地图平移缩放控件
+    map.addControl(new BMap.NavigationControl());
+//    //比例尺控件
+    map.addControl(new BMap.ScaleControl());
+//    //缩略地图控件
+    map.addControl(new BMap.OverviewMapControl());
+//    //地图类型控件
+    map.addControl(new BMap.MapTypeControl());
+//    map.setCurrentCity("广州"); // 仅当设置城市信息时，MapTypeControl的切换功能才能可用
+//
+//
+    map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+//    /*
+//     默认情况下地图不支持鼠标滚轮缩放操作，因为这样可能会影响整个页面的用户体验，
+//     但是如果您希望在地图中使用鼠标滚轮控制缩放，则可以调用map.enableScrollWheelZoom方法来开启。
+//     配置选项可以在Map类参考的配置方法一节中找到。
+//     * */
+
+</script>
+
+<!--footer         开始-->
+<footer class="footer">
+    <div class="footer-all sec1200">
+        <i></i>
+        <ul>
+            <li><a href=""><h4>关于我们</h4><p>公司简介<br>企业文化</p></a></li>
+            <li><a href=""><h4>产品服务</h4><p>游戏发行<br>游戏平台<br>游戏平台<br>天启互娱传媒</p></a></li>
+            <li><a href=""><h4>商务合作</h4><p>合作模式</p></a></li>
+            <li><a href=""><h4>关注微信</h4><p></p></a></li>
+            <li><a href=""><h4>服务热线</h4><p>400-8678-668<br><em>(7x24小时）</em><br><span></span></p></a></li>
+        </ul>
+    </div>
+</footer>
+<!--footer         end-->
+<script src="js/product-serve.js"></script>
+
+</body>
+</html>

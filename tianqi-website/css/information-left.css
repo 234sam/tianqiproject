@@ -1,0 +1,426 @@
+/*information-left.css/information-messagecss*/
+
+/*--------------------右边大盒子    开始*/
+    .information-r {
+        width: 340px;
+        height: 1924px;
+        margin-top: 30px;
+    }
+    .information-r>:first-child {
+        width: 340px;
+        height: 178px;
+        display: inline-block;
+        background: url("../img/information-adv01.png");
+    }
+
+/*----------------------热门活动      开始*/
+.h-activity {
+    width: 340px;
+    height: 464px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+.h-activity> p {
+    height: 40px;
+    border-bottom: 1px solid #EDEDED;
+}
+.h-activity> p a{
+    width: 82px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: "microsoft";
+    color: #434343;
+}
+.h-activity> p a:hover {
+    border-bottom: 1px solid #FDAF1D;
+}
+.h-activity span> a {
+    width: 328px;
+    height: 142px;
+    display: block;
+    margin: 5px;
+    background: url("../ha/ha-banner.png");
+}
+.h-activity span {
+    display: block;
+    position: relative;
+}
+.h-activity span p {
+    width: 328px;
+    height: 30px;
+    background-color: #000;
+    opacity: 0.56;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+}
+.h-activity span p a {
+    width: 156px;
+    height: 21px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "microsoft";
+    color: #fff;
+}
+.h-activity ul {
+    height: 85px;
+    float: left;
+    border-bottom: 1px solid #EDEDED;
+}
+.h-activity ul a:first-child {
+    width: 66px;
+    height: 66px;
+    display: block;
+    float: left;
+    margin: 10px 0 10px 15px;
+    background: url("../ha/ha-thumbnail01.png");
+}
+.h-activity .ul2 a:first-child {
+    background: url("../ha/ha-thumbnail02.png");
+}
+.h-activity .ul3 a:first-child {
+    background: url("../ha/ha-thumbnail03.png");
+}
+.h-activity ul a:nth-child(2) h2{
+    width: 231px;
+    height: 23px;
+    line-height: 23px;
+    display: block;
+    color: #434343;
+    padding-left: 86px;
+    font-family: "microsoft";
+    margin-top: 10px;
+}
+.h-activity ul a:nth-child(3) {
+    width: 124px;
+    height: 19px;
+    font-size: 12px;
+    line-height: 35px;
+    display: inline-block;
+    color: #656565;
+    padding-left: 13px;
+    font-family: "microsoft";
+}
+/*----------------------热门活动      end*/
+
+/*----------------------热门攻略      开始*/
+.h-strategy {
+    height: 315px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.h-strategy p {
+    height: 40px;
+    border-bottom: 1px solid #EDEDED;
+}
+.h-strategy p a:first-child {
+    width: 76px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-family: "microsoft";
+    color: #434343;
+    padding-left: 15px;
+}
+.h-strategy p a:first-child:hover {
+    border-bottom: 1px solid #FDAF1D;
+}
+.h-strategy p a:last-child {
+    width: 56px;
+    height: 21px;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    font-family: "microsoft";
+    color: #999999;
+    margin: 23px 5px 3px 0;
+}
+.h-strategy ul li {
+    height: 46px;
+    width: 340px;
+    line-height: 46px;
+    position: relative;
+}
+.h-strategy ul li i {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);     /* Internet Explorer */
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    background-color: #656565;
+    margin-left: 20px;
+}
+.h-strategy ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #434343;
+    font-family: "microsoft";
+    margin-left: 10px;
+}
+.h-strategy ul li b {
+    width: 301px;
+    display: inline-block;
+    border-bottom: 1px dashed #EDEDED;
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+}
+/*----------------------热门攻略      end*/
+
+/*----------------------热门礼包      开始*/
+.h-gift {
+    width: 340px;
+    height: 611px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.h-gift p {
+    height: 43px;
+    border-bottom: 1px solid #F7F7F7;
+}
+.h-gift p a {
+    width: 75px;
+    height: 43px;
+    display: inline-block;
+    line-height: 43px;
+    font-size: 18px;
+    color: #434343;
+    font-family: "microsoft";
+    padding-left: 10px;
+}
+.h-gift p a:hover {
+    border-bottom: 1px solid #FDAF1D;
+}
+.h-gift ul li {
+    width: 322px;
+    height: 108px;
+    margin-left: 9px;
+    border-bottom: 1px solid #F7F7F7;
+}
+.h-gift ul li:nth-child(1) a:nth-child(1),.h-gift ul li:nth-child(2) a:nth-child(1),.h-gift ul li:nth-child(3) a:nth-child(1),
+.h-gift ul li:nth-child(4) a:nth-child(1),.h-gift ul li:nth-child(5) a:nth-child(1) {
+    width: 67px;
+    height: 67px;
+    display: inline-block;
+    margin: 15px 5px 10px 10px;
+    float: left;
+}
+.h-gift ul li:nth-child(1) a:nth-child(1) {
+    background: url("../h-gift/hgift01.png");
+}
+.h-gift ul li:nth-child(2) a:nth-child(1) {
+    background: url("../h-gift/hgift02.png");
+}
+.h-gift ul li:nth-child(3) a:nth-child(1) {
+    background: url("../h-gift/hgift03.png");
+}
+.h-gift ul li:nth-child(4) a:nth-child(1) {
+    background: url("../h-gift/hgift04.png");
+}
+.h-gift ul li:nth-child(5) a:nth-child(1) {
+    background: url("../h-gift/hgift05.png");
+}
+.h-gift ul li:nth-child(1) a:nth-child(2),.h-gift ul li:nth-child(2) a:nth-child(2),.h-gift ul li:nth-child(3) a:nth-child(2),
+.h-gift ul li:nth-child(4) a:nth-child(2),.h-gift ul li:nth-child(5) a:nth-child(2) {
+    width: 145px;
+    height: 21px;
+    display: inline-block;
+    margin-top: 28px;
+    font-size: 16px;
+    color: #434343;
+    font-family: "microsoft";
+}
+.h-gift ul li:nth-child(1) a:nth-child(3),.h-gift ul li:nth-child(2) a:nth-child(3),.h-gift ul li:nth-child(3) a:nth-child(3),
+.h-gift ul li:nth-child(4) a:nth-child(3),.h-gift ul li:nth-child(5) a:nth-child(3) {
+    width: 82px;
+    height: 21px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #999999;
+    font-family: "microsoft";
+}
+.h-gift ul li:nth-child(1) a:nth-child(4),.h-gift ul li:nth-child(2) a:nth-child(4),.h-gift ul li:nth-child(3) a:nth-child(4),
+.h-gift ul li:nth-child(4) a:nth-child(4),.h-gift ul li:nth-child(5) a:nth-child(4) {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin: -8px 10px 0 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: "microsoft";
+    background-color: #FD950B;
+}
+/*----------------------热门礼包      end*/
+
+/*----------------------二维码模块      开始*/
+.erweima {
+    width: 340px;
+    height: 141px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.erweima i {
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    float: left;
+    background: url("../img/hotgameerweima.png");
+    margin: 15px 20px 10px 25px;
+}
+.erweima span {
+    width: 125px;
+    height: 23px;
+    display: inline-block;
+    /*float: left;*/
+    font-size: 16px;
+    font-family: "microsoft";
+    color: #434343;
+    margin-top: 25px;
+}
+.erweima p {
+    width: 282px;
+    height: 46px;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: "microsoft";
+    color: #434343;
+}
+/*----------------------二维码模块      end*/
+/*--------------------右边大盒子    end*/
+
+/*----------------------热门游戏/最新游戏        开始*/
+.hg {
+    width: 836px;
+    height: 154px;
+    background-color: #fff;
+}
+.hg p {
+    width: 780px;
+    height: 25px;
+    margin-left: 25px;
+    border-bottom: 1px solid #EDEDED;
+}
+.hg p a {
+    width: 75px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "microsoft";
+    color: #434343;
+}
+.hg p a:hover {
+    border-bottom: 1px solid #FD950B;
+}
+.hg ul {
+    width: 788px;
+    height: 94px;
+    margin: 20px 25px 10px 25px;
+}
+.hg ul li {
+    width: 69px;
+    height: 94px;
+    float: left;
+    margin-right: 50px;
+}
+.hg ul li.li7 {
+    margin-right: 0;
+}
+.hg ul li .i1,.hg ul li .i4 {
+    width: 69px;
+    height: 69px;
+    display: inline-block;
+    margin: 0 5px;
+    background: url("../hg/hg01.png");
+}
+.hg ul li .i2,.hg ul li .i5,.hg ul li .i7 {
+    width: 69px;
+    height: 69px;
+    display: inline-block;
+    margin: 0 5px;
+    background: url("../hg/hg02.png");
+}
+.hg ul li .i3,.hg ul li .i6 {
+    width: 69px;
+    height: 69px;
+    display: inline-block;
+    margin: 0 5px;
+    background: url("../hg/hg03.png");
+}
+.hg ul li em {
+    width: 80px;
+    height: 21px;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: "microsoft";
+    color: #434343;
+    text-align: center;
+}
+/*----------------------热门游戏/最新游戏        end*/
+
+/*----------------------热评话题       开始*/
+.h-theme {
+    width: 836px;
+    height: 201px;
+    margin-top: 18px;
+    background-color: #fff;
+}
+.h-theme h1 a {
+    width: 82px;
+    height: 25px;
+    display: inline-block;
+    font-family: "microsoft";
+    color: #434343;
+    margin: 25px 0 20px 25px;
+}
+.h-theme ul {
+    width: 810px;
+    height: 95px;
+    margin-left: 25px;
+}
+.h-theme ul li {
+    width: 270px;
+    height: 31px;
+    line-height: 21px;
+    float: left;
+}
+.h-theme ul li a {
+    display: inline-block;
+    font-family: "microsoft";
+    font-size: 14px;
+    color: #656565;
+}
+.h-theme ul li b{
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 8px;
+    background-color: #999999;
+}
+.h-theme ul li:nth-child(1) em,.h-theme ul li:nth-child(2) em,
+.h-theme ul li:nth-child(3) em {
+    width: 23px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    background: url("../img/hot-icon.png");
+}
+/*----------------------热评话题       end*/

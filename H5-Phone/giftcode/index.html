@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>H5</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body ontouchstart="">
+    <div class="phone">
+        <div class="all" style="display: none"></div>
+        <img src="img/banner.png" alt=""/>
+        <div class="title">
+            <h3>请选择领取</h3>
+            <span>活动时间：2019年1月30日止</span>
+        </div>
+        <form action="">
+            <span>选择游戏:<input type="text" placeholder="乱世沙城"/></span>
+            <span>选择区:<input type="text" placeholder="电信01区"/></span>
+            <span>礼包类型:<input type="text"/></span>
+            <span>礼包系列号:<input type="text"/></span>
+            <a href=""><img src="img/button.png" alt=""/></a>
+        </form>
+        <ul style="display: none">
+            <li><i class="on"></i>乱世沙城</li>
+            <li><i></i>王者荣耀</li>
+            <li><i></i>乱世沙城</li>
+            <li><i></i>王者荣耀</li>
+            <li><i></i>乱世沙城</li>
+            <li><i></i>王者荣耀</li>
+            <li><i></i>乱世沙城</li>
+            <li><i></i>王者荣耀</li>
+        </ul>
+        <div class="ul2" style="display: none">
+            <span>IOS/苹果</span>
+            <span>Android/安卓</span>
+        </div>
+        <div class="ul3" style="display: none">
+            <span>新手礼包</span>
+            <span>礼包码</span>
+            <span>大礼包</span>
+        </div>
+        <p>
+            <span>规则说明：</span><br>
+            <span>1.微信礼包每人限领一次 </span><br>
+            <span>2.进入游戏-[礼包兑换]-输入礼包码领取即可</span>
+        </p>
+    </div>
+    <script>
+        var $li = $(".phone>ul>li");
+        var $input = $(".phone>form>span").eq(0).children("input");
+        var $input1 = $(".phone>form>span").eq(1).children("input");
+        var $input2 = $(".phone>form>span").eq(2).children("input");
+        console.log($input);
+
+        $input.click(function(){
+            $(".all").show();
+            $(".phone>ul").show();
+        });
+        $input1.click(function(){
+            $(".all").show();
+            $(".phone>.ul2").show();
+        });
+        $input2.click(function(){
+            $(".all").show();
+            $(".phone>.ul3").show();
+        });
+
+        $li.click(function(){
+            $(this).find("i").addClass("on").parent().siblings().find("i").removeClass("on");
+            $(".all").hide();
+            var text = $(this).text();
+            $input.attr('value',text);
+            $(".phone>ul").hide();
+        });
+        $(".phone>.ul2>span").click(function(){
+            $(".all").hide();
+            var text = $(this).text();
+            $input1.val(text);
+            $(this).parent().hide();
+        });
+        $(".phone>.ul3>span").click(function(){
+            $(".all").hide();
+            var text = $(this).text();
+            $input2.val(text);
+            $(this).parent().hide();
+        });
+
+    </script>
+</body>
+</html>

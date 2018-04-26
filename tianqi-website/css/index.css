@@ -1,0 +1,1116 @@
+/*index.css*/
+
+/*------------------------------大背景颜色*/
+    div.sec1920 {
+        width: 1920px;
+        overflow: hidden;
+    }
+    .bg-color {
+        height: 100%;
+        background-color: #E9F6FD;
+    }
+
+/*---------------------顶部轮播图  开始*/
+    .all {
+        width: 1920px;
+        height: 450px;
+        padding-bottom: 38px;
+        position: relative;
+    }
+    .screen{
+        width: 1920px;
+        height: 450px;
+        overflow:hidden;
+        position:relative;
+    }
+    .screen li {
+        width:1920px;
+        height:450px;
+        overflow:hidden;
+        float:left;
+    }
+    .screen ul {
+        position:absolute;
+        left:0;
+        top:0;
+        width:13440px;
+    }
+    .all ol {
+        position:absolute;
+        right:360px;
+        bottom:20px;
+        line-height:20px;
+        text-align:center;
+    }
+    .all ol li {
+        float:left;
+        width:20px;
+        height:20px;
+        background:#ffffff;
+        border-radius:10px;
+        margin-left:10px;
+        cursor:pointer;
+    }
+    .all ol li.current {
+        width:40px;
+        height:20px;
+        background:#ffffff;
+        border-radius:10px;
+    }
+
+    #arr {display: none;}
+    #arr span{ width:40px; height:40px; position:absolute; left:5px; top:50%; margin-top:-20px; background:#000; cursor:pointer; line-height:40px; text-align:center; font-weight:bold; font-family:'黑体'; font-size:30px; color:#fff; opacity:0.3; border:1px solid #fff;}
+    #arr #right{right:5px; left:auto;}
+/*---------------------顶部轮播图  end*/
+
+/*---------------------新闻信息  开始*/
+    .newsinfo {
+        height: 316px;
+    }
+    .newsinfo .newsinfo-l {
+        width: 611px;
+        height: 316px;
+    }
+    .newsinfo-r {
+        width: 542px;
+        height: 316px;
+        position: relative;
+    }
+    .ad {
+        width: 542px;
+        height: 316px;
+        overflow:hidden;
+        position:relative;
+    }
+    .newsinfo-r img {
+        width: 542px;
+    }
+    .ad ol{position:absolute;right:10px;bottom:10px;}
+    .ad ol li{width:20px;height:20px;line-height:20px;border:1px solid #ccc;text-align:center;background:#fff;float:left;margin-right:10px;cursor:pointer;_display:inline;}
+    .ad ol li.current{background:yellow;}
+    .ad ul li{float:left;}
+    .ad ul{ position:absolute; top:0; width:2710px;}
+    .ad ul li.current{display:block;}
+    #arr1 {display: block;}
+    #arr1 i{
+        width:40px;
+        height:30px;
+        position:absolute;
+        left: 461px;
+        top: 97%;
+        margin-top:-21px;
+        background:#999999;
+        cursor:pointer;
+        line-height:30px;
+        text-align:center;
+        font-size:20px;
+        color:#D9D9D9;
+        font-family:"微软雅黑";
+    }
+    #arr1 .current {
+        background:#FAA300;
+    }
+    #arr1 #right{
+        right:0;
+        left:auto;
+    }
+    .headline {
+        margin: 16px 0 20px;
+    }
+    .headline a {
+        color: #F9A200;
+    }
+    .news-middle {
+        width: 617px;
+        height: 104px;
+        margin-bottom: 26px;
+    }
+    .news-middle-l {
+        width: 170px;
+        height: 104px;
+    }
+    .news-middle-r {
+        width: 424px;
+        height: 99px;
+        font-family:"微软雅黑";
+    }
+    .news-middle-r p {
+        line-height: 20px;
+    }
+    .news-footer {
+        width: 627px;
+        height: 120px;
+
+    }
+    .news-footer-l {
+        height: 150px;
+        margin-right: 93px;
+    }
+    .news-footer-l p,.news-footer-r p{
+        height: 21px;
+        color: #434343;
+        line-height: 21px;
+        margin: 10px 0;
+    }
+/*----------------------新闻信息  end*/
+
+/*---------------------广告图片1  开始*/
+    .advimg1 {
+        width: 1200px;
+        height: 152px;
+        padding-top: 60px;
+    }
+/*---------------------广告图片1  end*/
+
+/*---------------------热门游戏  开始*/
+    .hotgame {
+        height: 500px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .hotgame-t {
+        height: 30px;
+    }
+    .hotgame-t-l {
+        width: 165px;
+        height: 29px;
+    }
+    .hotgame-t-l i {
+        width: 26px;
+        height: 29px;
+        float: left;
+        margin-left: 20px;
+        background: url("../img/hotgame.png");
+    }
+    .hotgame-t-l p {
+        width: 84px;
+        height: 29px;
+        float: left;
+        margin: 5px 0 0 10px;
+    }
+    .hotgame-t-l p a {
+        color: #444444;
+    }
+    .hotgame-t-r {
+        width: 150px;
+        height: 29px;
+    }
+    .hotgame-t-r p {
+        width: 70px;
+        height: 23px;
+        margin: 5px 0 0 30px;
+    }
+    .hotgame-t-r p a {
+        color: #444444;
+    }
+    .hotgame-t-r i {
+        width: 20px;
+        height: 16px;
+        float: left;
+        margin: 8px 0 0 5px;
+        background: url("../img/huanyizu.png");
+    }
+    .hotgame-f {
+        height: 464px;
+        margin-top: 10px;
+    }
+    .hotgame-f-l {
+        width: 286px;
+        height: 464px;
+        background-image: url("../img/hotgameimg01.png");
+    }
+    .hotgame-f-l .img-bg {
+        width: 280px;
+        height: 302px;
+        opacity: 0.9;
+        margin: 1px 0 0 3px;
+    }
+    .img-bg-content {
+        height: 96px;
+        width: 280px;
+        position: relative;
+        top: -200px;
+        left: 14px;
+    }
+    .img-erweima {
+        width: 96px;
+        height: 96px;
+
+    }
+    .img-bg-content .p1 {
+        position: absolute;
+        top: 0;
+        left: 108px;
+    }
+    .img-bg-content .p2 {
+        position: absolute;
+        top: 24px;
+        left: 107px;
+    }
+    .img-bg-content .star {
+        width: 90px;
+        height: 13px;
+        float: left;
+        position: absolute;
+        top: 46px;
+        left: 109px;
+    }
+    .img-bg-content .order {
+        width: 80px;
+        height: 26px;
+        position: absolute;
+        top: 68px;
+        left: 109px;
+    }
+    .img-bg-content .order p i {
+        width: 80px;
+        height: 26px;
+        display: inline-block;
+        text-align: center;
+        line-height: 26px;
+        border-radius: 5px;
+        color: #F19619;
+        border: 1px solid #F19619;
+        position: absolute;
+        top: -2px;
+        left: 0;
+    }
+    .img-bg-content .order p i:hover {
+        background-color: #F19619;
+        color: #fff;
+    }
+    .hotgame-f-info {
+        height: 156px;
+    }
+    .hotgame-f-info .p1 {
+        width: 156px;
+        height: 22px;
+        position: relative;
+        top: -86px;
+        left: 9px;
+    }
+    .hotgame-f-info .p1 a {
+        color: #444444;
+    }
+    .hotgame-f-info .p1 .span1 i {
+        width: 20px;
+        height: 20px;
+        margin: 2px 15px 0 54px;
+        background: url("../img/index-y-icon.png");
+        position: absolute;
+        top: -3px;
+        left: 130px;
+    }
+    .hotgame-f-info .p1 .span2 i {
+        width: 19px;
+        height: 19px;
+        background: url("../img/play-y-icon.png");
+        position: absolute;
+        top: 0;
+        left: 225px;
+    }
+    .hotgame-f-info .p2 {
+        height: 22px;
+        position: relative;
+        top: -74px;
+        left: 12px;
+    }
+    .hotgame-f-info .p2 img {
+        width: 14px;
+        height: 13px;
+        margin-left: -4px;
+    }
+    .hotgame-f-info .p2 .span2 {
+        margin-left: 10px;
+    }
+    .hotgame-f-info .p3 {
+        width: 252px;
+        height: 91px;
+        letter-spacing: 1px;        /*文字间距*/
+        line-height: 25px;
+        font-family: "microsoft";
+        position: relative;
+        top: -75px;
+        left: 12px;
+    }
+    .hotgame-f-info .p3 a {
+        color: #434343;
+    }
+    .hotgame-f-r {
+        width: 907px;
+        height: 460px;
+        margin-left: 7px;
+    }
+    .hotgame-f-r .img-erweima {
+        position: relative;
+        top: -227px;
+        left: 0;
+    }
+    .item-bg-content {
+        height: 96px;
+        width: 280px;
+        position: relative;
+        top: -132px;
+        left: 14px;
+    }
+    .item-bg-content .item-p2 {
+        position: absolute;
+        top: 9px;
+        left: 90px;
+    }
+    .item-bg-content .item-p1 {
+        position: absolute;
+        top: -14px;
+        left:  91px;
+    }
+    .item-bg-content .item-star {
+        width: 90px;
+        height: 13px;
+        float: left;
+        position: absolute;
+        top: 46px;
+        left: 108px;
+    }
+    .item-bg-content .item-order {
+        width: 80px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        position: absolute;
+        top: 68px;
+        left: 112px;
+    }
+    .item-bg-content .item-order .item-p {
+        position: absolute;
+        top: -16px;
+        left: -111px;
+    }
+    .item-bg-content .item-order .item-p a {
+        color: #F7F7F7;
+    }
+    .item-first-p {
+        position: relative;
+        top: -96px;
+        left: 0;
+    }
+    .item-first-p a {
+        color: #434343;
+    }
+    .item-first-p .span1 i {
+        width: 20px;
+        height: 20px;
+        background-color: pink;
+        background: url("../img/index-icon.png");
+    }
+    .hotgame-f-r .item {
+        width: 296px;
+        height: 226px;
+        float: left;
+        background: url("../img/hgbg.png");
+    }
+    .hotgameimg02 {
+        width: 290px;
+        height: 219px;
+        margin-left: 1px;
+        background: url("../img/hotgameimg02.png");
+    }
+    .item .item-bg1 i {
+        width: 291px;
+        height: 173px;
+        display: block;
+        opacity: 0.96;
+        background: url("../img/item-bg.png");
+    }
+    .item .item-bg2 i{
+        background: url("../img/hg-r-img02.png");
+    }
+    .item .item-bg3 i{
+        background: url("../img/hg-r-img03.png");
+    }
+    .item .item-bg4 i{
+        background: url("../img/hg-r-img04.png");
+    }
+    .item .item-bg5 i{
+        background: url("../img/hg-r-img05.png");
+    }
+    .item .item-bg6 i{
+        background: url("../img/hg-r-img06.png");
+    }
+    .item .item-bg2 i,.item .item-bg3 i,
+    .item .item-bg4 i,.item .item-bg5 i, .item .item-bg6 i{
+        width: 291px;
+        height: 173px;
+        display: block;
+        margin-left:3px;
+    }
+    .item p {
+        width: 266px;
+        height: 24px;
+    }
+    .item p  .ht-icon {
+        width: 68px;
+        height: 24px;
+        display: block;
+        float: right;
+    }
+    .item .first-img i{
+        width: 20px;
+        height: 20px;
+        display: block;
+        float: left;
+        background: url("../img/index-icon.png");
+    }
+    .item .second-img i{
+        width: 19px;
+        height: 19px;
+        display: block;
+        float: right;
+        margin-top: 2px;
+        background: url("../img/play-icon.png");
+    }
+    .hotgame-f-r .item-t{
+        width: 906px;
+        height: 221px;
+        margin-bottom: 15px;
+    }
+    .hotgame-f-r .item-t .item-c1,.hotgame-f-r .item-f .item-c2 {
+        margin: 0 9px;
+    }
+    .hotgame-f-r .item p {
+        height: 22px;
+        width: 260px;
+        margin: 16px 20px 16px 20px;
+    }
+    .hotgame-f-r .item p a {
+        color: #434343;
+    }
+    .hotgame-f-r .item .first-img {
+        width: 20px;
+        height: 20px;
+    }
+    .hotgame-f-r .item .first-img i {
+        width: 20px;
+        height: 20px;
+        background: url("../img/index-icon.png");
+    }
+    /*.hotgame-f-r .item p .span2 {*/
+        /*width: 19px;*/
+        /*height: 19px;*/
+        /*margin-left: 16px;*/
+    /*}*/
+/*---------------------热门游戏  end*/
+
+/*---------------------精品推荐  开始*/
+    .pro-rec {
+        height: 330px;
+    }
+    .pro-rec-l {
+        width: 874px;
+        height: 330px;
+    }
+    .rec-top {
+        height: 30px;
+    }
+    .rec-top i {
+        width: 29px;
+        height: 26px;
+        display: inline-block;
+        background: url("../img/pro-rec.png");
+    }
+    .rec-top .wenzi-l {
+        width: 84px;
+        height: 28px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .rec-top .wenzi-r {
+        margin-top: 5px;
+    }
+    .rec-top .wenzi-r a {
+        color: #656565;
+    }
+    .rec-footer {
+        width: 894px;
+        height: 278px;
+        margin-top: 22px;
+    }
+    .module {
+        width: 286px;
+        height: 131px;
+        float: left;
+        margin-bottom: 15px;
+        font-family: "microsoft";
+        background: url("../img/精品推荐背景.png");
+    }
+    .module .icon {
+        width: 88px;
+        height: 88px;
+        margin: 20px 10px 20px 15px;
+    }
+    .module .m-right {
+        width: 168px;
+        height: 131px;
+    }
+    .module .title {
+        width: 134px;
+        height: 25px;
+        margin-top: 20px;
+    }
+    .module .title a {
+        color: #434343;
+    }
+    .module .news {
+        width: 115px;
+        height: 20px;
+    }
+    .module .biggif {
+        width: 130px;
+        height: 20px;
+    }
+    .module .download i {
+        width: 68px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+        font-size: 14px;
+        color: #F9A200;
+        font-family: "microsoft";
+        border-radius: 5px;
+        border: 1px solid #F9A200;
+    }
+    .module .download i:hover,.right-footer .download i:hover,
+    .gmodule .download i:hover,.gright-footer-t .giftsimg3 i:hover{
+        background-color: #faa300;
+        color: #fff;
+    }
+    .module .download img{
+        width: 68px;
+        height: 26px;
+        margin-top: 5px;
+    }
+    .rec-footer .module-t {
+        width: 894px;
+        height: 131px;
+        margin-bottom: 15px;
+    }
+    .rec-footer .module-t .center1,.rec-footer .module-f .center2 {
+        margin: 0 18px;
+    }
+    .pro-rec-r {
+        width: 286px;
+        height: 330px;
+    }
+    .right-top {
+        height: 30px;
+    }
+    .right-top img {
+        width: 14px;
+        height: 8px;
+        margin-top: 7px;
+    }
+    .right-top .wenzi-l {
+        width: 84px;
+        height: 28px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .right-top .wenzi-r {
+        width: 83px;
+        margin-top: 5px;
+    }
+    .right-top .wenzi-r .wenzi-p {
+        margin-right: 10px;
+    }
+    .right-top .wenzi-r .wenzi-p a {
+        color: #656565;
+    }
+    .right-footer {
+        width: 294px;
+        height: 278px;
+        margin-top: 22px;
+    }
+    .right-footer-t {
+        width: 293px;
+        height: 135px;
+        font-family: "microsoft";
+        background: url("../img/精品推荐背景.png");
+    }
+    .right-footer .right-icon {
+        width: 128px;
+        height: 128px;
+        margin: 2px 10px 0 1px;
+    }
+    .right-footer-t .title {
+        height: 37px;
+        line-height: 46px;
+        margin-top: 20px;
+    }
+    .right-footer-t .title a {
+        color: #434343;
+    }
+    .right-footer-t .news,.right-footer-t .biggif {
+        height: 22px;
+    }
+    .right-footer .download,.gmodule .download {
+        display: inline-block;
+    }
+    .right-footer .download i{
+        width: 80px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        color: #F9A200;
+        font-family: "microsoft";
+        border-radius: 5px;
+        border: 1px solid #F9A200;
+        position: relative;
+        top: 10px;
+        left: 1px;
+    }
+    .right-footer-f .right-footer-t {
+        width: 293px;
+        height: 135px;
+        margin-top: -8px;
+
+    }
+/*---------------------精品推荐  end*/
+
+/*---------------------游戏礼包  开始*/
+    .g-gifts {
+        height: 321px;
+        padding-top: 56px;
+    }
+    .g-gifts-l {
+        width: 708px;
+        height: 321px;
+    }
+    .gifts-top {
+        height: 30px;
+    }
+    .gifts-top i {
+        width: 21px;
+        height: 21px;
+        display: inline-block;
+        margin: 0 10px 0 20px;
+        background: url("../img/gamegif.png");
+    }
+    .gifts-top .wenzi-l {
+        width: 84px;
+        height: 28px;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    .gifts-top .wenzi-r {
+        margin-top: 5px;
+    }
+    .gifts-top .wenzi-r a {
+        color: #999999;
+    }
+    .gifts-footer {
+        width: 724px;
+        height: 280px;
+        margin-top: 22px;
+    }
+    .gmodule {
+        width: 240px;
+        height: 135px;
+        float: left;
+        margin-bottom: 15px;
+        background: url("../img/gamegiftbg.png");
+    }
+    .gmodule .icon {
+        width: 88px;
+        height: 88px;
+        margin: 20px 11px 20px 15px;
+    }
+    .gmodule .title {
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .gmodule .title a {
+        color: #434343;
+    }
+    .gmodule .news {
+        margin-top: 39px;
+    }
+    .gmodule .download i {
+        width: 80px;
+        height: 26px;
+        line-height: 26px;
+        display: inline-block;
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        color: #F9A200;
+        font-family: "microsoft";
+        border-radius: 5px;
+        border: 1px solid #F9A200;
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+    .gifts-footer .gmodule-t {
+        display: flex;
+        width: 724px;
+        height: 135px;
+        margin-bottom: 12px;
+    }
+    .gifts-footer .gmodule-t .gcenter1,.gifts-footer .gmodule-f .gcenter2 {
+        margin: 0 2px;
+    }
+    .g-gifts-r {
+        width: 463px;
+        height: 330px;
+
+    }
+    .gright-top {
+        height: 30px;
+
+    }
+    .gright-top i {
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        margin: 0 5px 0 10x;
+        background: url("../img/hotgift.png");
+    }
+    .gright-top .wenzi-l {
+        width: 84px;
+        height: 28px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .gright-top .wenzi-r {
+        width: 83px;
+        margin-top: 5px;
+    }
+    .gright-top .wenzi-r a {
+        color: #434343;
+    }
+    .gright-top .wenzi-r .wenzi-p {
+        margin-right: 10px;
+    }
+    .gright-footer {
+        width: 463px;
+        height: 280px;
+        margin-top: 22px;
+    }
+    .gright-footer-t {
+        width: 469px;
+        height: 134px;
+        position: relative;
+        background-image: url("../img/热门礼包背景图.png");
+    }
+    .gright-footer-t .giftsimg1 img {
+        width: 203px;
+        height: 19px;
+        position: absolute;
+        top: 81px;
+        left: 114px;
+    }
+    .gright-footer-t .giftsimg2 img {
+        width: 180px;
+        height: 19px;
+        position: absolute;
+        top: 81px;
+        left: 114px;
+    }
+    .gright-footer-t .giftsimg3 i {
+        width: 90px;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        color: #F9A200;
+        font-family: "microsoft";
+        border-radius: 5px;
+        border: 1px solid #F9A200;
+        position: absolute;
+        top: 62px;
+        left: 357px;
+    }
+    .gright-footer-t .gfont {
+        width: 53px;
+        height: 19px;
+        color: #ffffff;
+        position: absolute;
+        top: 84px;
+        left: 184px;
+        z-index: 1;
+    }
+    .gright-footer .gright-icon {
+        width: 88px;
+        height: 88px;
+        margin: 20px 11px 20px 15px;
+    }
+    .gright-footer-t span.gifts-alter img{
+        width: 60px;
+    }
+/*---------------------游戏礼包  end*/
+
+/*---------------------游戏攻略  开始*/
+    .g-strategy {
+        height: 342px;
+        padding-top: 50px;
+
+    }
+    .g-strategy-t {
+        height: 30px;
+        width: 1173px;
+    }
+    .strategy-l {
+        width: 404px;
+        height: 30px;
+    }
+    .g-strategy-t ul li {
+        float: left;
+        margin-top: 10px;
+        margin-right: 18px;
+    }
+    .g-strategy-t ul li a {
+        color: #434343;
+    }
+    .g-strategy-t img {
+        width: 21px;
+        height: 27px;
+        float: left;
+        margin-right: 5px;
+    }
+    .g-strategy-t span {
+        margin-top: 8px;
+        margin-right: 30px;
+    }
+    .strategy-r {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .strategy-r a {
+        color: #434343;
+    }
+    .g-strategy-f {
+        width: 1209px;
+        height: 302px;
+        margin-top: 20px;
+        background-image: url("../img/游戏攻略背景.png");
+    }
+    .g-strategy-f-l {
+        width: 720px;
+        height: 302px;
+    }
+    .mokuai {
+        width: 230px;
+        height: 129px;
+        float: left;
+        position: relative;
+    }
+    .mokuai .bofang {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 84px;
+        left: 10px;
+    }
+    .mokuai .writer {
+        width: 230px;
+        height: 24px;
+        color: #fff;
+        line-height: 24px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: "microsoft";
+        background-color: #000;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .strategy-t,.strategy-f {
+        width: 720px;
+        height: 129px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .strategy-f {
+        margin-top: 23px;
+    }
+    .strategy-t .mokuai-center1,.strategy-f .mokuai-center2 {
+        margin: 0 10px;
+    }
+    .g-strategy-f-r {
+        width: 460px;
+        height: 295px;
+    }
+    .stra-t {
+        width: 453px;
+        height: 82px;
+        margin-top: 15px;
+    }
+    .stra-t .biaoti {
+        width: 200px;
+        height: 23px;
+        font-family: "microsoft";
+    }
+    .stra-t .biaoti a {
+        color: #434343;
+    }
+    .stra-t .biaoti-p {
+        width: 460px;
+        height: 46px;
+        line-height: 26px;
+        font-family: "microsoft";
+    }
+    .stra-t .biaoti-p a {
+        color:#0096FF;
+    }
+    .stra-t .biaoti-l {
+        width: 444px;
+        height: 1px;
+        background-color: #DBDBDB;
+        margin-top: 14px;
+    }
+/*---------------------游戏攻略  end*/
+
+/*---------------------友情链接  开始*/
+    .fri-link {
+        width: 1207px;
+        height: 118px;
+        margin: 50px 370px 0 361px;
+        background-image: url("../img/友情连接bg.png");
+    }
+    .fri-link .fri-link-f {
+        width: 1207px;
+        height: 45px;
+        /*background-color: pink;*/
+    }
+    .fri-link-span {
+        width: 200px;
+        height: 44px;
+        margin-left: 15px;
+    }
+    .fri-link-span span {
+        width: 72px;
+        height: 29px;
+        float: left;
+        padding-left: 10px;
+        margin-top: 15px;
+        font-family: "microsoft";
+        font-size: 16px;
+    }
+    .fri-link-span span a {
+        color: #252525;
+    }
+    .fri-link .fri-link-f span:hover {
+        border-bottom: 1px solid #FF8100;
+
+    } 
+    .fri-link .fri-link-l {
+        width: 1160px;
+        height: 1px;
+        margin-left: 15px;
+        background-color: #DBDBDB;
+    }
+    .fri-link-xia {
+        width: 1207px;
+        height: 73px;
+    }
+    .fri-link-xia  .fri-link-ul {
+        width: 696px;
+        height: 23px;
+        margin-left: 25px;
+    }
+    .fri-link-ul li {
+        float: left;
+        font-size: 16px;
+        font-family: "microsoft";
+        padding-right: 27px;
+        margin-top: 30px;
+    }
+    .fri-link-ul li a {
+        color: #999999;
+    }
+/*---------------------友情链接  end*/
+
+/*---------------------侧边栏部分   开始*/
+    .sidebar {
+        width: 288px;
+        height: 317px;
+        position: absolute;
+        top: 3000px;
+        right: 20px;
+    }
+    .sidebar>i {
+        width: 207px;
+        height: 304px;
+        display: inline-block;
+        float: left;
+        margin-left: 15px;
+        background: url("../img/index-sidebar-erweima.png");
+    }
+    .sidebar .sidebar-r {
+        width: 61px;
+        height: 315px;
+        float: right;
+    }
+    .sidebar-r a:first-child i,.sidebar-r a:nth-child(3) i,
+    .sidebar-r a:nth-child(5) i{
+        width: 60px;
+        height: 60px;
+        display: block;
+        background: url("../img/index-sidebar-n-APPdownload.png");
+    }
+    .sidebar-r a:first-child i:hover,.sidebar-r a:nth-child(3) i:hover,
+    .sidebar-r a:nth-child(5) i:hover{
+        background: url("../img/index-sidebar-y-APPdownload.png");
+    }
+
+    .sidebar-r a:nth-child(2) i,.sidebar-r a:nth-child(4) i {
+        width: 61px;
+        height: 61px;
+        display: block;
+        margin-top: 1px;
+        background: url("../img/index-sidebar-n-gzh.png");
+    }
+    .sidebar-r a:nth-child(2) i:hover,.sidebar-r a:nth-child(4) i:hover {
+        background: url("../img/index-sidebar-y-gzh.png");
+    }
+
+    .sidebar-r a:nth-child(3) i {
+        margin-top: 1px;
+        background: url("../img/index-sidebar-n-kfqq.png");
+    }
+    .sidebar-r a:nth-child(3) i:hover {
+        background: url("../img/index-sidebar-y-kfqq.png");
+    }
+
+    .sidebar-r a:nth-child(4) i {
+        margin-top: 1px;
+        background: url("../img/index-sidebar-n-lxwm.png");
+    }
+    .sidebar-r a:nth-child(4) i:hover {
+        background: url("../img/index-sidebar-y-lxwm.png");
+    }
+
+    .sidebar-r a:nth-child(5) i {
+        margin-top: 1px;
+        background: url("../img/index-sidebar-n-hddb.png");
+    }
+    .sidebar-r a:nth-child(5) i:hover {
+        background: url("../img/index-sidebar-y-hddb.png");
+    }
+/*---------------------侧边栏部分   end*/
+
+
+
+
+
+
+

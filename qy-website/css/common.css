@@ -1,0 +1,165 @@
+/*common.css*/
+
+    .sec1920 {  /*给所有的大的区块一个统一的样式*/
+        width: 1920px;
+        margin: 0 auto;
+    }
+    .sec1200 {  /*列表页，详细页给所有的大的区块一个统一的样式*/
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+
+/*------------项目中要用到的颜色*/
+
+    .c-lblack {      /*浅黑色  顶部导航栏字体颜色*/
+        color: #999;
+    }
+    .c-dblack {      /*深黑色  顶部导航栏字体颜色*/
+        color: #666;
+    }
+    .c-ddblack {      /*深黑色  友情链接字体颜色*/
+        color: #333;
+    }
+
+
+
+/*----------------项目里要用到的字体大小*/
+    .fs-12 {
+        font-size: 12px;
+    }
+    .fs-14 {
+        font-size: 14px;
+    }
+    .fs-16 {
+        font-size: 16px;
+    }
+    .fs-18 {
+        font-size: 18px;
+    }
+    .fs-20 {
+        font-size: 20px;
+    }
+    .fs-26{
+        font-size: 26px;
+    }
+    .fs-32{
+        font-size: 32px;
+    }
+
+body{
+    background-color: #f0f8fb;
+    overflow-x:hidden;
+}
+
+/*-----------导航栏         开始*/
+.qy_nav {
+    height: 96px;
+    background-color: #fff;
+}
+.qy_nav1>a:first-child img {
+    float: left;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.qy_nav1 ul li {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+.qy_nav1 ul li>a.activate {
+    color: #fff;
+    background-color: #f08200;
+}
+.qy_nav1 ul li>a>span {
+    color: #999;
+    font-size: 12px;
+}
+.qy_nav1 ul li>a.activate>span {
+    color: #fff;
+}
+
+.qy_nav1 ul li>a {
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+    padding: 30px 25px;
+}
+.qy_nav1 ul li>a:hover {
+    color: #fff;
+    background-color: #f08200;
+}
+.qy_nav1 ul li>a:hover>span {
+    color: #fff;
+}
+/*-----------导航栏         end*/
+
+/*-----------footer         开始*/
+.footer {
+    height: 361px;
+    overflow: hidden;
+    background-color: #28292c;
+}
+.footer-all {
+    height: 214px;
+    margin-top: 75px;
+}
+.footer-all>i:first-child {
+    width: 252px;
+    height: 93px;
+    display: inline-block;
+    float: left;
+    margin-right: 140px;
+    background: url("../img/footer-logo.png");
+}
+.footer-all>ul:nth-child(2) {
+    background-color: yellow;
+}
+.footer-all>ul:nth-child(2) li {
+    float: left;
+}
+.footer-all>ul:nth-child(2) li:nth-child(2n) {
+    margin: 0 50px;
+}
+.footer-all>ul:nth-child(2) li>a h4:first-child {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.footer-all>ul:nth-child(2) li>a p:nth-child(2) {
+    font-size: 14px;
+    color: #999;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+/*.footer-all>ul:nth-child(2) li:nth-child(3)>a p:nth-child(2) {*/
+    /*margin-left: 5px;*/
+/*}*/
+.footer-all>ul:nth-child(2) li:nth-child(4)>a p:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background: url("../img/footer-erweima.png");
+    margin-top: 10px;
+}
+.footer-all>ul:nth-child(2) li:nth-child(5)>a p:nth-child(2) em {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+.footer-all>ul:nth-child(2) li:nth-child(5)>a p:nth-child(2) span {
+    width: 112px;
+    height: 36px;
+    display: inline-block;
+    background: url("../img/footer-custom.png");
+}
+/*-----------footer         end*/

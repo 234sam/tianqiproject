@@ -1,0 +1,82 @@
+/*common.css*/
+
+    .sec1920 {  /*给所有的大的区块一个统一的样式*/
+        width: 1900px;
+        margin: 0 auto;
+    }
+    .sec1200 {  /*列表页，详细页给所有的大的区块一个统一的样式*/
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+
+/*------------项目中要用到的颜色*/
+
+    .c-lgray {    /*浅灰色  顶部导航栏背景色*/
+        color: #F7F7F7;
+    }
+    .c-gray {     /*灰色   顶部导航栏字体颜色*/
+        color: #999999;
+    }
+    .c-dgray {     /*深灰色   热门游戏字体颜色*/
+        color: #434343;
+    }
+    .c-dred {      /*深红色  字体颜色*/
+        color: #FF3F3F
+    }
+    .c-red {      /*红色  顶部导航栏字体颜色*/
+        color: #FD8080 !important;
+    }
+    .c-lblack {      /*浅黑色  顶部导航栏字体颜色*/
+        color: #666666;
+    }
+    .c-dblack {      /*深黑色  顶部导航栏字体颜色*/
+        color: #656565;
+    }
+    .c-ddblack {      /*深黑色  友情链接字体颜色*/
+         color: #252525;
+     }
+    .c-black {      /*黑色  顶部导航栏字体颜色*/
+        color: #444444;
+    }
+    .c-orange {      /*橙色  标题颜色*/
+        color: #F9A200;
+    }
+    .c-lorange {      /*浅橙色  标题颜色*/
+        color: #F9A300 !important;
+    }
+    .c-dorange {      /*深橙色  标题颜色*/
+        color: #FBB42F ;
+    }
+    .c-blue {      /*蓝色  标注颜色*/
+        color:  #0095FD;
+    }
+
+
+/*----------------项目里要用到的字体大小*/
+    .fs-12 {
+        font-size: 12px;
+    }
+    .fs-14 {
+        font-size: 14px;
+    }
+    .fs-16 {
+        font-size: 16px;
+    }
+    .fs-18 {
+        font-size: 18px;
+    }
+    .fs-20 {
+        font-size: 20px;
+    }
+    .fs-26{
+        font-size: 26px;
+    }
+    .fs-32{
+        font-size: 32px;
+    }

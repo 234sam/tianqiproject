@@ -1,0 +1,325 @@
+/*index.css*/
+
+
+/*------------------------轮播图           开始*/
+    .slider {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .sliderul {
+        width: 500%;
+        transform: translateX(-20%);
+    }
+    .sliderul>li {
+        width: 20%;
+        float: left;
+    }
+    .sliderul>li>a {
+        display: block;
+        width: 100%;
+    }
+    .sliderul>li>a>img {
+        display: block;
+        width: 100%;
+    }
+    .number {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        margin-left: -3.1rem;
+    }
+    .number li {
+        width: 0.8rem;
+        height: 0.8rem;
+        border:1px solid #fff;
+        display: block;
+        border-radius: 100%;
+        display: inline-block;
+        margin: 0 0.5rem;
+        cursor: pointer;
+    }
+    .number .active {
+        background-color: #fff;
+    }
+/*------------------------轮播图           end*/
+
+/*------------------------产品服务         开始*/
+    .product_serve {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .product_serve>h3,.news>h3,.newslist>h3 {
+        width: 100%;
+        height: 4.5rem;
+        font-size: 1.2rem;
+        color: #666;
+        font-weight: normal;
+        margin-top: 2.3rem;
+        text-align: center;
+    }
+    .product_serve>h3>span,.news>h3>span,
+    .newslist>h3>span {
+        display: inline-block;
+        line-height: 2.3rem;
+        color: #333;
+    }
+    .product_serve>ul {
+        width: 136%;
+        height: auto;
+        margin-top: 3.5rem;
+        /*overflow: hidden;*/
+    }
+    .product_serve>ul>li {
+        width: 25%;
+        height: auto;
+        text-align: center;
+        float: left;
+    }
+    .product_serve>ul>li>a {
+        width: 100%;
+        display: inline-block;
+    }
+    .product_serve>ul>li>a>img {
+        width: 3.7rem;
+        height: 3.6rem;
+        margin-bottom: 0.5rem;
+    }
+    .product_serve>ul>li:nth-child(2)>a>img {
+        width: 4.2rem;
+        height: 3.4rem;
+        margin-bottom: 0.7rem;
+    }
+    .product_serve>ul>li:nth-child(3)>a>img {
+        width: 4.3rem;
+        height: 4.3rem;
+        margin-top: -0.7rem;
+    }
+    .product_serve>ul>li:nth-child(4)>a>img {
+        width: 3.8rem;
+        height: 3.8rem;
+        margin-top: -0.2rem;
+    }
+    .product_serve>ul>li>a>span {
+        display: block;
+        font-size: 1.2rem;
+        color: #333;
+    }
+/*------------------------产品服务         end*/
+
+
+/*------------------------产品中心         开始*/
+    .news {
+        width: 100%;
+        height: auto;
+        margin-top: 3.3rem;
+        overflow: hidden;
+    }
+    .news>ul {
+        width: 500%;
+        height: auto;
+        transform: translateX(-20%);
+    }
+    .news>ul>li {
+        width: 20%;
+        float: left;
+        height: auto;
+    }
+    .news>ul>li>a {
+        display: inline-block;
+    }
+    .news>ul>li>a>img {
+        width: 100%;
+    }
+/*------------------------产品中心         end*/
+
+/*------------------------新闻动态         开始*/
+    .newslist {
+        width: 100%;
+        height: auto;
+        padding: 0 1rem;
+    }
+    .newslist>p:nth-child(2) {
+        width: 100%;
+        height: 1.7rem;
+        padding: 0 15%;
+        margin-bottom: 2.3rem;
+    }
+    .newslist>p:nth-child(2)>span {
+        width: auto;
+        height: 1.7rem;
+        line-height: 1.7rem;
+        display: inline-block;
+        font-size: 1rem;
+        color: #333;
+        text-align: center;
+        float: left;
+        /*margin-right: 2rem;*/
+    }
+    .newslist>p:nth-child(2)>span:nth-child(2) {
+        margin: 0 15%;
+    }
+    .newslist>p:nth-child(2)>span.now {
+        border-bottom: 0.1rem solid #fdaf1e;
+    }
+    .module {
+        width: 100%;
+        height: 32rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .module>.all {
+        width: 500%;
+        height: 29rem;
+        transform: translateX(-20%);
+    }
+    .all>a {
+        width: 20%;
+        height: 29rem;
+        display: block;
+        float: left;
+        text-align: left;
+        padding: 0.5rem;
+        box-shadow: 0.2rem 0.2rem 1rem rgba(152,152,152,0.3);
+    }
+    .all>a>img {
+        width: 100%;
+    }
+    .all>a>h3 {
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 2.8rem;
+        font-weight: normal;
+    }
+    .all>a>p {
+        font-size: 1rem;
+        color: #999;
+        line-height: 2rem;
+    }
+    .modelelist {
+        width: 100%;
+        height: 4.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .modelelist>b {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 1.6rem;
+        color: #999;
+        position: absolute;
+        top: 1rem;
+        left: 0;
+    }
+    .modelelist>i {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 0.9rem;
+        color: #999;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+    }
+    .modelelist>span {
+        display: inline-block;
+        width: 6rem;
+        height: 1.9rem;
+        background: url("../img/index-button.png");
+        background-size: 6rem 1.9rem;
+        position: absolute;
+        top: 2rem;
+        right: 0.5rem;
+    }
+    .module>ul:last-child {
+        width: 100%;
+        height: 0.9rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        margin-left: -3.4rem;
+    }
+    .module>ul:last-child>li {
+        width: 0.9rem;
+        height: 0.9rem;
+        border: 1px solid #e67f11;
+        border-radius: 50%;
+        margin-left: 1rem;
+        float: left;
+    }
+    .module>ul:last-child>li.on {
+        background-color: #e67f11;
+    }
+/*------------------------新闻动态         end*/
+
+/*------------------------底部轮播图         开始*/
+    .bottom_slider {
+        width: 100%;
+        height: 4.6rem;
+        overflow: hidden;
+        margin: 1.5rem 0;
+        /*background-color: pink;*/
+    }
+    .bottom_slider>ul {
+        width: 200%;
+    }
+    .bottom_slider>ul>li {
+        width: 20%;
+        height: 100%;
+        padding-left: 3%;
+        float: left;
+    }
+    .bottom_slider>ul>li>a {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+    .bottom_slider>ul>li>a>img {
+        width: 100%;
+        height: 100%;
+        background-size: 20% 100%;
+        display: inline-block;
+    }
+/*------------------------底部轮播图         end*/
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+

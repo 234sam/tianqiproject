@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul li{list-style-type: none}
+        #banner{
+            width: 1920px;
+            height: 600px;
+            overflow: hidden;
+        }
+        #banner ul{
+            width: 7680px;
+            overflow: hidden;
+        }
+        #banner ul>li{
+            width: 1920px;
+            height: 600px;
+            float: left;
+        }
+        img{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="banner">
+    <ul>
+        <li><img src="img/banner1.png" alt="" width="1920px" height="600px"/></li>
+        <li><img src="img/banner2.png" alt="" width="1920px" height="600px"/></li>
+        <li><img src="img/banner3.png" alt="" width="1920px" height="600px"/></li>
+        <li><img src="img/banner4.png" alt="" width="1920px" height="600px"/></li>
+    </ul>
+</div>
+<input type="button" value="left" class="left"/>
+<input type="button" value="right" class="right"/>
+
+
+<script src="jq/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.right').click(function () {
+            $("#banner ul").animate({marginLeft:"-1920px"},100, function () {
+                $("#banner ul>li").eq(0).appendTo($("#banner ul"));
+                $("#banner ul").css('marginLeft','0px');
+            });
+        })
+        $('.left').click(function () {
+            $("#banner ul").css('marginLeft','-19200px');
+            $("#banner ul>li").eq(3).prependTo($("#banner ul"));
+            $("#banner ul").animate({marginLeft:"0px"},100);
+        })
+    })
+</script>
+</body>
+</html>  

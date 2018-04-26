@@ -1,0 +1,255 @@
+/*news-information.css*/
+
+/*--------------------------------------新闻资讯       开始*/
+    .news-information-adv {
+        height: 400px;
+    }
+    .news-information {
+        margin-top: 60px;
+    }
+    .news-information-t {
+        width: 1052px;
+        height: 64px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .news-information-t>h3:first-child{
+        width: 150px;
+        font-size: 30px;
+        color: #333;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .news-information-t>h3:first-child>span{
+        font-size: 24px;
+        color: #666;
+        letter-spacing: -1px;
+    }
+    .news-information-t>span:nth-child(2),.news-information-t>span:nth-child(3) {
+        width: 429px;
+        height: 2px;
+        display: inline-block;
+        background: linear-gradient(to left,rgba(205,205,205,1),rgba(205,205,205,0));
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    .news-information-t>span:nth-child(3) {
+        background: linear-gradient(to right,rgba(205,205,205,1),rgba(205,205,205,0));
+        left: 620px;
+    }
+    .news-information-t>span:nth-child(2)>em,.news-information-t>span:nth-child(3)>em {
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        border-radius: 3px;
+        background-color: #cdcdcd;
+        position: absolute;
+        top: -1px;
+        left: 429px;
+    }
+    .news-information-f {
+        margin-top: 80px;
+    }
+    .news-information-f>p:first-child {
+        width: 530px;
+        height: 40px;
+    }
+    .news-information-f>p:first-child>span {
+        width: 120px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+    .activate1 {
+        background-color: #f08200;
+        color: #fff;
+        border-radius: 6px;
+    }
+    /*--------------------新闻部分      开始*/
+    .news-information-ul {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .news-information-ul>li {
+        height: 189px;
+        margin-bottom: 30px;
+        overflow: hidden;
+        background-color: #eff3f6;
+    }
+    .news-information-ul>li:hover {
+        box-shadow: 9px 9px 15px rgba(117,117,117,0.2);
+        transform: scale(1.01,1.01);
+        transition: all 1s;
+    }
+    .news-information-ul>li>a>img:first-child {
+        float: left;
+        margin-right: 40px;
+        padding: 10px;
+    }
+    .news-information-ul>li:hover>a>img:first-child {
+        background-color: #fff;
+    }
+    .news-information-ul>li>a>h4:nth-child(2) {
+        font-size: 20px;
+        color: #333;
+        margin-top: 20px;
+    }
+    .news-information-ul>li>a>span:nth-child(3) {
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        margin-top: 20px;
+    }
+    .news-information-ul>li>a>em:nth-child(4) {
+        font-size: 20px;
+        color: #666;
+        float: right;
+        margin-top: -20px;
+        margin-right: 130px;
+    }
+    .news-information-ul>li>a>em:nth-child(5) {
+        font-size: 12px;
+        color: #999;
+        float: right;
+        margin-top: 10px;
+        margin-right: 156px;
+    }
+    .news-information-ul>li>a>p:nth-child(6) {
+        font-size: 14px;
+        line-height: 30px;
+        color: #666;
+        margin-top: 25px;
+    }
+    .news-information-ul>li>a>p:nth-child(6)>em {
+        width: 63px;
+        height: 21px;
+        display: inline-block;
+        float: right;
+        margin-right: 80px;
+        background: url("../img/qy_news-n-icon.png");
+    }
+    .news-information-ul>li:hover>a>p:nth-child(6)>em {
+        background: url("../img/qy_news-y-icon.png");
+        background-size: 63px 21px;
+    }
+    .news-information-f>p:last-child {
+        height: 42px;
+        margin-bottom: 50px;
+    }
+    .news-information-f .serial {
+        height: 42px;
+        display: inline-block;
+    }
+    .news-information-f .serial>span {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 10px;
+        display: inline-block;
+        border-radius: 20px;
+        border: 1px solid #999;
+        font-size: 18px;
+        color: #999;
+        cursor: pointer;
+    }
+    .news-information-f .serial>span.span-activate {
+        color: #fff;
+        background-color: #999;
+    }
+    .news-information-f .zuoyou>i:first-child {
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        cursor: pointer;
+        background: url("../img/news-information-n-prev.png");
+    }
+    .news-information-f .zuoyou>i:last-child {
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        margin-left: -3px;
+        cursor: pointer;
+        background: url("../img/news-information-y-next.png");
+    }
+    /*--------------------新闻部分      end*/
+/*---------------------------------------新闻资讯       end*/
+
+/*---------------------------------------新闻资讯内容       开始*/
+    .news-information-inside {
+        overflow: hidden;
+    }
+    .route {
+        width: 100%;
+        height: 70px;
+        border-bottom: 1px solid #999;
+    }
+    .route>li {
+        float: left;
+        font-size: 14px;
+        color: #333;
+        line-height: 70px;
+        margin-right: 3px;
+    }
+    .news-inside-f {
+        background-color: #f0f8fb;
+        margin-top: 70px;
+        text-align: center;
+    }
+    .news-inside-f>h3:first-child {
+        font-size: 24px;
+        color: #f08200;
+    }
+    .news-inside-f>span:nth-child(2) {
+        display: inline-block;
+        font-size: 12px;
+        color: #999;
+        margin-top: 25px;
+    }
+    .news-inside-f>p:nth-child(3),.news-inside-f>p:nth-child(5),
+    .news-inside-f>p:nth-child(6),.news-inside-f>p:nth-child(8) {
+        font-size: 18px;
+        color: #666;
+        line-height: 35px;
+        margin-top: 45px;
+        text-align: left;
+        margin-left: 5px;
+        letter-spacing: -0.1px;
+    }
+    .news-inside-f>img:nth-child(4),.news-inside-f>img:nth-child(7) {
+        margin-top: 35px;
+    }
+    .news-inside-f>p:nth-child(8) {
+        margin-bottom: 80px;
+    }
+/*---------------------------------------新闻资讯内容       end*/
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

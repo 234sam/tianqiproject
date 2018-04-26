@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <script src="http://api.map.baidu.com/api?v=3.0&ak=oWYNBTGUenSbreFj0jjC4eCB1reWrGVM&s=1"></script>
+    <!-- 添加视口属性 变为移动页面 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header-footer.css"/>
+    <link rel="stylesheet" href="swiper/css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/aboutus.css"/>
+    <style>
+        .BMap_bubble_title {
+            font-size: 1rem;
+            color: #f08200;
+        }
+        .BMap_bubble_content>p {
+            color: #666666;
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+        }
+        .anchorBL {
+            display: none;
+        }
+    </style>
+</head>
+<body ontouchstart="">
+<!--顶部导航         开始-->
+<div class="top_nav">
+    <a href="" class="fl"><img src="img/top-logo.png" alt=""/></a>
+    <a href="" class="fr"><img src="img/top-menu.png" alt=""/></a>
+</div>
+<!--顶部导航         end-->
+
+<!--广告部分banner   开始-->
+<div class="advimg">
+    <a href=""><img src="img/recruitment-banner.png" alt=""/></a>
+</div>
+<!--广告部分banner   end-->
+
+<!--联系我们         开始-->
+<div class="aboutus contactus">
+    <div class="aboutus-t business">
+        <h3>
+            联系我们<br>
+            <span>CONTACT US</span>
+        </h3>
+        <span><em></em></span>
+        <span><em></em></span>
+    </div>
+    <div class="contactus-f">
+        <p>
+            地址：广州天河区中山大道中珠村机械城东英办公楼<br>
+            电话：0220-8113 211<br>
+            邮箱：tianqihuyu@163.com<br>
+            招聘咨询：邱小姐131 6131 6431   0220-23141313<br>
+            乘车方案：可在珠村BRT下车，往莲溪BRT方向直行900米奥迪4S店<br>
+            旁边右拐50米东英办公楼4楼整层
+        </p>
+        <div class="map">
+            <div class="map-content" id="container">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var map = new BMap.Map("container");
+    var point = new BMap.Point(113.43045,23.120043);
+    map.centerAndZoom(point, 15);
+    map.enableScrollWheelZoom(true);
+    var marker = new BMap.Marker(point);        // 创建标注
+    map.addOverlay(marker);                     // 将标注添加到地图中
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow, map.getCenter());
+    });
+    var opts = {
+        width : 50,     // 信息窗口宽度
+        height: 20,     // 信息窗口高度
+        title : "广东天启互动娱乐有限公司"  // 信息窗口标题
+    }
+    var infoWindow = new BMap.InfoWindow("<p>电话：暂无</p><p>地址：天河区中山大道珠村东英办公楼4楼</p>", opts);  // 创建信息窗口对象
+    map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+    window.setTimeout(function(){
+        map.panTo(new BMap.Point(113.43045,23.120043));
+    }, 2000);
+</script>
+
+
+<!--footer         开始-->
+<div class="footer">
+    <span>广东天启互动娱乐有限公司</span>
+    <p>沪网文<em>［2014］</em><b>0742-172号</b>沪ICP备11049082号-5</p>
+    <p> 增值电信业务经营许可证沪B2-20150098<em>新出网证</em><b>（沪）</b>字58号</p>
+</div>
+<!--footer         end-->
+</body>
+</html>

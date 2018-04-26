@@ -1,0 +1,152 @@
+/*register.css*/
+
+    div.gw_container {
+        min-height: 634px;
+    }
+    .register {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .register div.sbox {
+        width: 100%;
+        padding: 0 10px;
+    }
+    div.sbox>h3 {
+        width: 85px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        font-size: 19px;
+        color: #333;
+        font-family: "microsoft";
+        font-weight: normal;
+        margin: 30px auto;
+    }
+    div.sbox>form:nth-child(2) {
+        width: 100%;
+        height: 365px;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(-n+4) {
+        width: 100%;
+        height: 38px;
+        display: block;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #999;
+        position: relative;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(-n+4) i {
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        background: url("../img/register-user-icon.png");
+        background-size: 26px 26px;
+        position: absolute;
+        top: 5px;
+        left: 0;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(2) i {
+        background: url("../img/register-yzm-icon.png");
+        background-size: 26px 26px;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(3) i {
+        background: url("../img/register-mm-icon.png");
+        background-size: 26px 26px;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(4) i {
+        background: url("../img/register-mm-icon.png");
+        background-size: 26px 26px;
+    }
+    div.sbox>form:nth-child(2)>span:nth-child(-n+4) input {
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        padding-left: 40px;
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        font-family: "microsoft";
+    }
+    div.sbox>form:nth-child(2)>span:first-child b {
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        content: url("../img/register-user-y-icon.png");
+        background-size: 26px 26px;
+        display: none;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    div.sbox>form:nth-child(2)>p:nth-child(5) {
+        width: 100%;
+        height: 26px;
+        line-height: 26px;
+        font-size: 12px;
+        font-family: "microsoft";
+        color: #666;
+        padding-left: 30px;
+        position: relative;
+    }
+    div.sbox>form:nth-child(2)>p:nth-child(5) img {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    div.sbox>form:nth-child(2)>p:nth-child(5) b {
+        color: #000;
+    }
+    div.sbox>form:nth-child(2)>p:last-child {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 1%;
+    }
+    div.sbox>form:nth-child(2)>p:last-child input {
+        width: 100%;
+        height: 39px;
+        line-height: 39px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #fff;
+        background-color: #a5a5a5;
+    }
+    div.sbox>form:nth-child(2)>p:last-child input:active {
+        color: #fff;
+        background-color: #fdaf1e;
+    }
+    div.sbox>p:last-child {
+        width: 100%;
+        font-size: 14px;
+        font-family: "microsoft";
+        color: #969696;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    div.sbox>p:last-child a {
+        color: #fd1e1e;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

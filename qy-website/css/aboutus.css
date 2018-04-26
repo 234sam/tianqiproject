@@ -1,0 +1,465 @@
+/*aboutus.css*/
+
+/*--------------------------------关于我们       开始*/
+    .aboutus-adv {
+        height: 400px;
+    }
+    .aboutus {
+        height: 790px;
+        margin-top: 60px;
+    }
+    .aboutus-t {
+        width: 1052px;
+        height: 64px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .aboutus-t>h3:first-child{
+        width: 150px;
+        font-size: 30px;
+        color: #333;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .aboutus-t>h3:first-child>span{
+        font-size: 24px;
+        color: #666;
+        letter-spacing: -1px;
+    }
+    .aboutus-t>span:nth-child(2),.aboutus-t>span:nth-child(3) {
+        width: 429px;
+        height: 2px;
+        display: inline-block;
+        background: linear-gradient(to left,rgba(205,205,205,1),rgba(205,205,205,0));
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    .aboutus-t>span:nth-child(3) {
+        background: linear-gradient(to right,rgba(205,205,205,1),rgba(205,205,205,0));
+        left: 620px;
+    }
+    .aboutus-t>span:nth-child(2)>em,.aboutus-t>span:nth-child(3)>em {
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        border-radius: 3px;
+        background-color: #cdcdcd;
+        position: absolute;
+        top: -1px;
+        left: 429px;
+    }
+    .aboutus-t>span:nth-child(3)>em {
+        left: 0;
+    }
+    .aboutus-f {
+        height: 423px;
+        margin-top: 80px;
+        /*background-color: pink;*/
+    }
+    .aboutus-f>p:first-child {
+        width: 530px;
+        height: 40px;
+        margin: 0 auto;
+        /*background-color: yellow;*/
+    }
+    .aboutus-f>p:first-child>span {
+        width: 120px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+    .activate1 {
+        background-color: #f08200;
+        color: #fff;
+        border-radius: 6px;
+    }
+    /*---------------企业文化       开始*/
+    .qywh {
+        height: 323px;
+        margin-top: 55px;
+        padding: 0 2px;
+        display: none;
+    }
+    .qywh>ul li {
+        width: 194px;
+        height: 323px;
+        float: left;
+        border-radius: 10px;
+        background-color: #fefefe;
+    }
+    .qywh>ul li:hover {
+        box-shadow: 7px 7px 21px rgba(90,89,89,0.3);
+        transform:scale(1.1,1.1);
+        transition:all 0.6s;
+    }
+    .qywh>ul li:nth-child(2n) {
+        margin: 0 56px;
+    }
+    .qywh>ul li>a>span {
+        width: 194px;
+        height: 142px;
+        display: inline-block;
+        border-bottom: 1px solid #d1d3d3;
+        position: relative;
+    }
+    .qywh>ul li>a>span>i {
+        width: 73px;
+        height: 68px;
+        display: inline-block;
+        background: url("../img/aboutus-img01.png");
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -34px;
+        margin-top: -36px;
+    }
+    .qywh>ul li:nth-child(2)>a>span>i {
+        width: 74px;
+        height: 63px;
+        background: url("../img/aboutus-img02.png");
+        margin-left: -37px;
+        margin-top: -31px;
+    }
+    .qywh>ul li:nth-child(3)>a>span>i {
+        width: 80px;
+        height: 87px;
+        background: url("../img/aboutus-img03.png");
+        margin-left: -40px;
+        margin-top: -44px;
+    }
+    .qywh>ul li:nth-child(4)>a>span>i {
+        width: 65px;
+        height: 72px;
+        background: url("../img/aboutus-img04.png");
+        margin-left: -32px;
+        margin-top: -36px;
+    }
+    .qywh>ul li:nth-child(5)>a>span>i {
+        width: 36px;
+        height: 56px;
+        background: url("../img/aboutus-img05.png");
+        margin-left: -18px;
+        margin-top: -28px;
+    }
+    .qywh>ul li:hover>a>span>i {
+        transform:scale(1.05,1.05);
+        transition:all 1s;
+    }
+    .qywh>ul li>a>h4 {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 24px;
+        color: #f08200;
+    }
+    .qywh>ul li:hover>a>h4 {
+        font-size: 26px;
+        transition:all 1s;
+    }
+    .qywh>ul li>a>p {
+        line-height: 20px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #999;
+        text-align: center;
+    }
+    .qywh>ul li:hover>a>p {
+        font-size: 16px;
+        transition:all 1s;
+
+    }
+    /*---------------企业文化       end*/
+
+    /*---------------企业简介       开始*/
+    .qyjj {
+        height: 323px;
+        margin-top: 55px;
+        overflow: hidden;
+        display: none;
+    }
+    .qyjj>img:first-child {
+        float: left;
+    }
+    .qyjj>p {
+        margin-top: 5px;
+        text-indent: 2em;
+        text-align:justify;
+        font-size: 17px;
+        color: #666;
+        line-height: 30px;
+    }
+    /*---------------企业简介       end*/
+/*----------------------------------关于我们       end*/
+
+/*----------------------------------产品服务       开始*/
+    .product-serve-t {
+        overflow: hidden;
+    }
+    .product-serve-t>h3:first-child {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .product-serve-t>h3:first-child>span {
+        display: inline-block;
+        margin-top: 5px;
+    }
+    .product-serve-f {
+        margin-top: 65px;
+        text-align: center;
+        position: relative;
+    }
+    .product-serve-f>p:first-child {
+        font-size: 22px;
+        color: #333;
+    }
+    .product-serve-f>ul:nth-child(2) {
+        margin-top: 62px;
+        position: absolute;
+        left: 50%;
+        margin-left: -286px;
+    }
+    .product-serve-f>ul:nth-child(2)>li {
+        width: 142px;
+        height: 90px;
+        float: left;
+        border-right: 1px solid #cdcdcd ;
+        text-align: center;
+    }
+    .product-serve-f>ul:nth-child(2)>li:last-child {
+        border-right: none;
+    }
+    .product-serve-f>ul:nth-child(2)>li>i{
+        display: inline-block;
+        margin: 8px 0;
+    }
+    .product-serve-f>ul:nth-child(2)>li:first-child .product-ul-pt {
+        width: 53px;
+        height: 54px;
+        background: url("../img/product-serve-n-img01.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:first-child .product-ul-pt.on {
+        background: url("../img/product-serve-y-img01.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(2) .product-ul-ly {
+        width: 61px;
+        height: 49px;
+        margin-top: 13px;
+        background: url("../img/product-serve-n-img02.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(2) .product-ul-ly.on {
+        background: url("../img/product-serve-y-img02.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(3) .product-ul-fx {
+        width: 63px;
+        height: 62px;
+        margin-top: 0;
+        background: url("../img/product-serve-n-img03.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(3) .product-ul-fx.on {
+        background: url("../img/product-serve-y-img03.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(4) .product-ul-zb {
+        width: 51px;
+        height: 51px;
+        margin-top: 11px;
+        background: url("../img/product-serve-n-img04.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li:nth-child(4) .product-ul-zb.on {
+        background: url("../img/product-serve-y-img04.png");
+    }
+    .product-serve-f>ul:nth-child(2)>li>span{
+        display: block;
+        font-size: 16px;
+        color: #666;
+    }
+    .product-list {
+        height: 353px;
+        background-color: #fff;
+        margin-top: 200px;
+        overflow: hidden;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 4px 4px 6px rgba(103,103,103,0.21);
+    }
+    .product-list>img {
+        float: left;
+        margin: 3px 10px;
+    }
+    .product-list>h5 {
+        font-size: 20px;
+        color: #333;
+        margin-top: 30px;
+    }
+    .product-list>p {
+        font-size: 16px;
+        color: #666;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+/*----------------------------------产品服务       end*/
+
+/*----------------------------------人才招聘       开始*/
+    .recruitment {
+        height: auto;
+        overflow: hidden;
+    }
+    .recruitment-f {
+        margin-top: 60px;
+    }
+    .recruitment-f>ul {
+        width: 1198px;
+        height: auto;
+        border: 1px solid #ebebeb;
+    }
+    .recruitment-f>ul>li {
+        width: 100%;
+        float: left;
+        height: auto;
+        cursor: pointer;
+    }
+    .recruitment-f>ul>li:first-child {
+        background-color: #ebebeb;
+    }
+    .recruitment-f>ul>li:nth-child(n+2) {
+        background-color: #f6f6f6;
+        border-bottom: 1px solid #d2d2d2;
+    }
+    .recruitment-f>ul>li:first-child>span,.dropdown>span {
+        display: inline-block;
+        line-height: 48px;
+        font-size: 18px;
+        color: #333;
+    }
+    .dropdown.bg {
+        background-color: #fffcee;
+        border-bottom: 1px solid #d2d2d2;
+    }
+    .dropdown>span {
+        font-size: 16px;
+    }
+    .recruitment-f>ul>li:first-child>span:first-child,.dropdown>span:first-child {
+        width: 400px;
+        padding-left: 100px;
+    }
+    .recruitment-f>ul>li:first-child>span:nth-child(n+2),.dropdown>span:nth-child(n+2) {
+        width: 200px;
+    }
+    .dropdown>i:last-child {
+        width: 20px;
+        height: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background: url("../img/recruitment-n-sj.png");
+    }
+    .dropdown>i:last-child.on  {
+        background: url("../img/recruitment-y-sj.png");
+    }
+    .dropdown_list {
+        height: 550px;
+        line-height: 30px;
+        padding-left: 150px;
+        overflow: hidden;
+        background-color: #fffcee;
+    }
+    .dropdown_list>h4 {
+        margin-top: 24px;
+        font-size: 18px;
+        color: #333;
+    }
+    .dropdown_list>p {
+        line-height: 35px;
+        font-size: 16px;
+        color: #333;
+    }
+    .dropdown_list>p:nth-child(4) {
+        margin-bottom: 30px;
+    }
+    .dropdown_list>span {
+        line-height: 30px;
+        font-size: 16px;
+        color: #f08200;
+    }
+    .recruitment-f>p:last-child {
+        float: left;
+        width: 100%;
+        height: 21px;
+        line-height: 21px;
+        font-size: 16px;
+        color: #333;
+        margin: 26px 0;
+    }
+    .recruitment-f>p:last-child>span:first-child {
+        float: left;
+        margin-left: 30px;
+    }
+    .recruitment-f>p:last-child>span>em {
+        margin-left: 50px;
+    }
+    .recruitment-f>p:last-child>span:last-child {
+        display: inline-block;
+        float: right;
+        margin-right: 30px;
+    }
+    .recruitment-f>p:last-child>span:last-child b {
+        width: 23px;
+        height: 21px;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid #b5b5b5;
+        border-radius: 12px;
+        font-size: 18px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .recruitment-f>p:last-child>span:last-child b.bbg {
+        color: #fff;
+        background-color: #b5b5b5;
+    }
+/*----------------------------------人才招聘       end*/
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
